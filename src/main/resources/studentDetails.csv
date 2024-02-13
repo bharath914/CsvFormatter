@@ -1,0 +1,6 @@
+id,rollno,college,branch,phoneNumber,name,surname,imageUrl,section,batch,type,email,aadhar,DOB,category,Address,jnanabhumi_id,Father_Name,Mother_Name,Parent_PhoneNumber,cast,District,RefPerson
+
+1,216Q1A4371,KIET+,CSE-AI,7093219037,Bharath Prakash,Ayinala,https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/images/216Q1A4371,CAI,2021-2025,Day -Scholar,bharathayinala@gmail.com,386968428148,14/09/2003,B-Category,"D:no 2-148 , Acthutapuram, Gokavaram Mandal",3212412312421,Satya Rama Krishna Ayinala,Manga Devi Ayinala,9332039821,OC - KAPU,East Godavari,V.L Prasanna
+
+2,216Q1A4358,KIET+,CSE-AI,9398522789,Sai Sandeep,Kotini,https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/images/216Q1A4358,CAI,2021-2025,Day -Scholar,kotinisaisandeep@gmail.com,7687687465764,4/09/2003,B-Category,"D:no 1-87/3 ,Rajempalem , Pedavegi",3212412312421,Ashok Kumar Kotini,Ratna Kumari Kotini,9332039821,OC - KAPU,West Godavari,Y.Srinivasa Rao
+
