@@ -3,7 +3,28 @@
   <component name="CsvFileAttributes">
     <option name="attributeMap">
       <map>
+        <entry key="\src\main\resources\4612RES.CSV">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\src\main\resources\RESULTS_UPTO22CSC.CSV">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\src\main\resources\STUDENTDETAILS.CSV">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\src\main\resources\STUDENTDETAILS_ROWS.CSV">
           <value>
             <Attribute>
               <option name="separator" value="," />
@@ -24,14 +45,56 @@
             </Attribute>
           </value>
         </entry>
-        <entry key="\src\main\resources\SemResultCSC.csv">
+        <entry key="\src\main\resources\StudentDetails_rows.csv">
           <value>
             <Attribute>
-              <option name="separator" value=":" />
+              <option name="separator" value="," />
             </Attribute>
           </value>
         </entry>
-        <entry key="\src\main\resources\StudentDetails_rows.csv">
+        <entry key="\src\main\resources\assests\ResultsUpto22.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\src\main\resources\assests\STUDENT_DETAILS_BATCH2021.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\src\main\resources\assests\detail2021_2025_csvUnformatted.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\src\main\resources\output\Attendance21_25Data.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\src\main\resources\output\formatted21_25Data.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\src\main\resources\output\formattedStudentsList.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\src\main\resources\output\name.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
