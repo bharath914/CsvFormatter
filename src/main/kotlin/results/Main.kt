@@ -1,3 +1,5 @@
+@file:Suppress("KDocUnresolvedReference")
+
 package results
 
 import com.github.doyaaaaaken.kotlincsv.dsl.csvReader
@@ -92,7 +94,7 @@ class FormatCsv {
     private val finalResult = arrayListOf<StudentResult>()
 
 
-    suspend fun main() {
+   suspend fun main() {
 
         println("Starting work")
 
@@ -124,14 +126,6 @@ class FormatCsv {
             it.rollNo
         }
 
-        /**
-         * @param jsonList : List of result in JSON Form
-         * @param semResultList : Stores each Sem Result
-         */
-        val jsonList = arrayListOf<String>()
-        val semResultList = arrayListOf<SemResult>()
-        var index = 0;
-
 
         /**
          * Launch a Coroutine Scope for faster execution of this code.
@@ -140,157 +134,172 @@ class FormatCsv {
             this.launch {
 
 
+        /**
+         * Iterate Through Each Sem Result of Every student
+         */
+
+        grouped.forEach { (rollNo, result) ->
+
+            /**
+             * @param group : results are stored normally so convert them as grouped list
+             *  for each sem
+             */
+
+            val group = result.groupBy {
+                it.sem
+            }
+            val perSemList = arrayListOf<SemResult>()
+
+            /**
+             * @param perSemList : Stores Result of Each Sem of Single Student
+             */
+
+
+//                  Iterate through the grouped List
+
+            group.forEach { (sem, semRes) ->
+
                 /**
-                 * Iterate Through Each Sem Result of Every student
+                 * @param sem         : Each Sem
+                 * @param semRes      : Each Sem Result
+                 * @param subjectSet  : Set for Fixing the subjectSet
+                 * @param gradeSet    : Set for Fixing the Revaluation
                  */
 
-                grouped.forEach { (rollNo, result) ->
 
-                    /**
-                     * @param group : results are stored normally so convert them as grouped list
-                     *  for each sem
-                     */
-
-                    val group = result.groupBy {
-                        it.sem
-                    }
-                    val perSemList = arrayListOf<SemResult>()
-
-                    /**
-                     * @param <perSemList> : Stores Result of Each Sem of Single Student
-                     */
+                val subjectSet = hashMapOf<String, Result>()
+                val gradeSet = hashMapOf<String, Result>()
+                var totalCreditsXGrade = 0.0f
+                var totalCredits = 0.0f
+                var backlogs = 0
 
 
-//                  Iterate throught the grouped List
 
-                    group.forEach { (sem, semRes) ->
+                semRes.forEachIndexed { _, result ->
 
-                        /**
-                         * @param sem         : Each Sem
-                         * @param semRes      : Each Sem Result
-                         * @param subjectSet  : Set for Fixing the subjectSet
-                         * @param gradeSet    : Set for Fixing the Revaluation
-                         */
+                    if (subjectSet.containsKey(result.subjectCode)) {
+                        val prev = subjectSet[result.subjectCode]!!
+                        val prevGrade = prev.grade
+                        val currentGrade = result.grade
+                        val bestGrade = compareGrades(prevGrade, currentGrade)
 
 
-                        val subjectSet = hashMapOf<String, Result>()
-                        val gradeSet = hashMapOf<String, Result>()
-                        var totalCreditsXGrade = 0.0f
-                        var totalCredits = 0.0f
-                        var backlogs = 0
-                        semRes.forEachIndexed { index, result ->
-
-                            if (subjectSet.containsKey(result.subjectCode)) {
-                                val prev = subjectSet[result.subjectCode]!!
-                                val prevGrade = prev.grade
-                                val currentGrade = result.grade
-                                val bestGrade = compareGrades(prevGrade, currentGrade)
-
-
-                                if ((prev.grade == "F" && result.grade != "F") || (prev.grade == "ABSENT" && result.grade != "F")) {
-                                    backlogs--
-                                    subjectSet.replace(result.subjectCode, result)
-                                }
-                                if (prev.grade != "F" || prev.grade != "COMPLE") {
-                                    if (result.grade != "F") {
-                                        val prevCredit = prev.credits.toFloat() * getCreditsByGrade(prevGrade).toFloat()
-                                        if (bestGrade == result.grade) {
-                                            totalCreditsXGrade -= prevCredit
-                                            totalCredits -= prev.credits.toFloat()
-                                            val curCredit =
-                                                result.credits.toFloat() * getCreditsByGrade(grade = result.grade).toFloat()
-                                            totalCreditsXGrade += curCredit
-                                            totalCredits += result.credits.toFloat()
-                                        }
-                                    }
-                                }
-
-                            } else {
-                                subjectSet[result.subjectCode] = result
-                                if (result.grade == "F" || result.grade == "ABSENT") backlogs++
-
-                                if (!gradeSet.containsKey(result.subjectCode + result.grade)) {
+                        if ((prev.grade == "F" && result.grade != "F") || (prev.grade == "ABSENT" && result.grade != "F") || (result.grade == "AB" && prev.grade != "AB")) {
+                            backlogs--
+                            subjectSet.replace(result.subjectCode, result)
+                        }
+                        if (prev.grade != "F" && prev.grade != "COMPLE" && prev.grade != "ABSENT" && prev.grade != "AB") {
+                            if (result.grade != "F") {
+                                val prevCredit = prev.credits.toFloat() * getCreditsByGrade(prevGrade).toFloat()
+                                if (bestGrade == result.grade) {
+                                    totalCreditsXGrade -= prevCredit
+                                    totalCredits -= prev.credits.toFloat()
+                                    val curCredit =
+                                        result.credits.toFloat() * getCreditsByGrade(grade = result.grade).toFloat()
+                                    totalCreditsXGrade += curCredit
                                     totalCredits += result.credits.toFloat()
-                                    totalCreditsXGrade += (result.credits.toFloat() * getCreditsByGrade(result.grade).toFloat())
                                 }
-                                gradeSet[result.subjectCode + result.grade] = result
                             }
                         }
 
+                    } else {
+                        subjectSet[result.subjectCode] = result
+                        if (result.grade == "F" || result.grade == "ABSENT" || result.grade == "AB") backlogs++
 
-                        val sgpa: Float =
-                            if (totalCreditsXGrade != 0f && totalCredits != 0f) (totalCreditsXGrade / totalCredits) else 0f
-                        var percent = (sgpa - 0.75f) * 10f
-                        if (sgpa == 0f) percent = 0f
-                        val semRes = SemResult(
-                            sem = sem,
-                            result = semRes,
-                            totalCredits = totalCredits,
-                            totalSgpa = "$sgpa",
-                            totalPercentage = "$percent",
-                            backlogs = backlogs
-                        )
-                        perSemList.add(
-                            semRes
-                        )
-
+                        if (!gradeSet.containsKey(result.subjectCode + result.grade)) {
+                            totalCredits += result.credits.toFloat()
+                            totalCreditsXGrade += (result.credits.toFloat() * getCreditsByGrade(result.grade).toFloat())
+                        }
+                        gradeSet[result.subjectCode + result.grade] = result
                     }
-                    var totalCgpaUpperSum = 0f
-                    var totalCreditsOfBtech = 0f
-                    var totalBacklogs = 0
-                    perSemList.forEach {
-                        totalCgpaUpperSum += (it.totalSgpa.toFloat() * it.totalCredits)
-                        totalCreditsOfBtech += it.totalCredits
-                        totalBacklogs += it.backlogs
-                    }
-                    val cgpa = totalCgpaUpperSum / totalCreditsOfBtech
-                    val percentage = (cgpa - 0.75f) * 10f
-                    finalResult.add(
-                        StudentResult(
-                            rollNo,
-                            percentage,
-                            totalCgpa = cgpa,
-                            totalBacklogs,
-                            perSemList.sortedBy {
-                                it.sem
-                            }
-                        )
-                    )
-                    println("The roll No is $rollNo and total backlogs is $totalBacklogs")
-
-                    writeToCSV()
-
                 }
+
+
+                val sgpa: Float =
+                    if (totalCreditsXGrade != 0f && totalCredits != 0f) (totalCreditsXGrade / totalCredits) else 0.0f
+                var percent = (sgpa - 0.75f) * 10f
+                if (sgpa == 0f) percent = 0.0f
+                val currSemRes = SemResult(
+                    sem = sem,
+                    result = semRes,
+                    totalCredits = totalCredits,
+                    totalSgpa = "$sgpa",
+                    totalPercentage = "$percent",
+                    backlogs = backlogs
+                )
+                perSemList.add(
+                    currSemRes
+                )
+
+            }
+            var totalCgpaUpperSum = 0f
+            var totalCreditsOfBtech = 0f
+            var totalBacklogs = 0
+            perSemList.forEach {
+                totalCgpaUpperSum += (it.totalSgpa.toFloat() * it.totalCredits)
+                totalCreditsOfBtech += it.totalCredits
+                totalBacklogs += it.backlogs
+            }
+            val cgpa = totalCgpaUpperSum / totalCreditsOfBtech
+            val percentage = (cgpa - 0.75f) * 10f
+            finalResult.add(
+                StudentResult(
+                    rollNo,
+                    if (percentage > 0f) percentage else 0.0f,
+                    totalCgpa = if (cgpa > 0f) cgpa else 0.0f,
+                    totalBacklogs,
+                    perSemList.sortedBy {
+                        it.sem
+                    }
+                )
+            )
+//                    println("The rollNo is $rollNo and total backlogs is $totalBacklogs")
+
+
+        }
+        writeToCSV()
             }
         }
 
 
     }
 
+    /**
+     * Writes The Calculated Results to given .csv file.
+     *
+     */
 
     private suspend fun writeToCSV() {
-        coroutineScope {
-            this.launch(IO) {
-                csvWriter().open("C:\\Users\\Bharath\\Desktop\\CsvFormatter\\src\\main\\resources\\output\\SEMRESULTCSC.CSV") {
-                    writeRow("rollNo", "totalPercentage", "totalCgpa", "totalBacklogs", "semResult")
-                    finalResult.forEachIndexed { index, studentResult ->
-                        val jsonSemResult = Gson().toJson(studentResult.semResult)
+        coroutineScope { launch(IO) {
 
-                        writeRow(
-                            studentResult.rollNo,
-                            studentResult.totalPercentage,
-                            studentResult.totalCgpa,
-                            studentResult.totalBacklogs,
-                            jsonSemResult
 
-                        )
-                        println(jsonSemResult)
-                    }
-                }
+        csvWriter().open("C:\\Users\\Bharath\\Desktop\\CsvFormatter\\src\\main\\resources\\output\\FormattedResults21_25.csv") {
+            writeRow("rollNo", "totalPercentage", "totalCgpa", "totalBacklogs", "semResult")
+            finalResult.forEachIndexed { index, studentResult ->
+                val jsonSemResult = Gson().toJson(studentResult.semResult)
+
+                writeRow(
+                    studentResult.rollNo,
+                    studentResult.totalPercentage,
+                    studentResult.totalCgpa,
+                    studentResult.totalBacklogs,
+                    jsonSemResult
+
+                )
+                println("Completed Up to $index / ${finalResult.size - 1} ")
+//                        println(jsonSemResult)
+            }
+        }
             }
         }
 
     }
+
+    /**
+     * As per JNTUK Grading System
+     * @param grade : Grade of the Student
+     * @return Appropriates Points for the grade.
+     */
 
     private fun getCreditsByGrade(grade: String): Int {
         return when (grade) {
@@ -304,8 +313,12 @@ class FormatCsv {
         }
     }
 
+    /**
+     * When The student Applies for Revaluation then the grades will be compared.
+     */
+
     private fun compareGrades(grade1: String, grade2: String): String {
-        val min = min((grade1.first() - 65).toInt(), (grade2.first() - 65).toInt())
+        val min = min((grade1.first() - 65).code, (grade2.first() - 65).code)
         return "${(min + 65).toChar()}"
 
     }
