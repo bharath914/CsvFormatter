@@ -3,7 +3,21 @@
   <component name="CsvFileAttributes">
     <option name="attributeMap">
       <map>
-        <entry key="\src\main\resources\assests\ResultsUpto22.csv">
+        <entry key="\src\main\resources\assests\21_25\Students_rows.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\src\main\resources\assests\2ndyrgcc.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\src\main\resources\assests\ResultsOf21Batch.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
@@ -17,6 +31,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\src\main\resources\assests\Uptojan2024\ResultsUptoJan2024_21Batch -.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\src\main\resources\assests\detail2021_2025_csvUnformatted.csv">
           <value>
             <Attribute>
@@ -24,10 +45,31 @@
             </Attribute>
           </value>
         </entry>
-        <entry key="\src\main\resources\output\12weekStudyProblems - Sheet1.csv">
+        <entry key="\src\main\resources\assests\kiewgccdata.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\src\main\resources\assests\passPercentage\KIET2ndYr2-1.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\src\main\resources\assests\passPercentage\Kiek2ndYr2-1.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\src\main\resources\output\206Q1A4204RESULT.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value=":" />
             </Attribute>
           </value>
         </entry>
@@ -52,6 +94,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\src\main\resources\output\filteredSecondYr.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\src\main\resources\output\formatted21_25Data.csv">
           <value>
             <Attribute>
@@ -66,7 +115,42 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\src\main\resources\output\gcc_attendance.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\src\main\resources\output\kiewgccdata.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\src\main\resources\output\kiewgccstudentdetails.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\src\main\resources\output\name.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\src\main\resources\output\secondyrdetialsgcc.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\src\main\resources\output\secondyrsgccstudents.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />

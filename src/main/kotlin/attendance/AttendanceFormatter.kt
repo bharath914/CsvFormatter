@@ -25,7 +25,7 @@ data class DayAttendance(
 
 suspend fun main() {
     val formatter = AttendanceFormatter()
-    formatter.format()
+    formatter.duplicateRemover()
 }
 
 class AttendanceFormatter {
@@ -35,13 +35,13 @@ class AttendanceFormatter {
 
         coroutineScope {
             launch {
-                csvReader().open("C:\\Users\\Bharath\\Desktop\\CsvFormatter\\src\\main\\resources\\output\\formattedStudentsList.csv") {
+                csvReader().open("C:\\Users\\Bharath\\Downloads\\gcc_data_main_output.csv") {
                     readAllAsSequence().forEachIndexed { index, data ->
                         if (index > 0) {
                             val rollNo = data[0]
                             val name = data[1]
-                            val batch = data[6]
-                            val branch = data[3]
+                            val batch = data[3]
+                            val branch = data[2]
                             val college = data[4]
                             finalList.add(
                                 AttendanceItem(
@@ -62,22 +62,65 @@ class AttendanceFormatter {
                 }
             }
         }
-        write()
+        write(finalList)
     }
 
-    private suspend fun write() {
+
+    suspend fun duplicateRemover() {
+        val dupList = arrayListOf<AttendanceItem>()
+        coroutineScope {
+
+
+            launch {
+                csvReader().open("C:\\Users\\Bharath\\Desktop\\CsvFormatter\\src\\main\\resources\\output\\gcc_attendance.csv") {
+                    readAllAsSequence().forEachIndexed { index, data ->
+                        if (index > 0) {
+                            val rollNo = data[0]
+                            val name = data[1]
+                            val batch = data[3]
+                            val branch = data[2]
+                            val college = data[4]
+                            dupList.add(
+                                AttendanceItem(
+                                    rollNo = rollNo,
+                                    name = name,
+                                    batch = batch,
+                                    branch = branch,
+                                    attendance = DayAttendance(
+                                        date = "01-02-2024",
+                                        present = "P"
+                                    ),
+                                    college = college
+
+                                )
+                            )
+                        }
+                    }
+                }
+                val distinct = dupList.distinctBy {
+                    it.rollNo
+                }
+                write(distinct)
+
+            }
+        }
+    }
+
+    private suspend fun write(list: List<AttendanceItem>) {
 
         coroutineScope {
             launch {
-                csvWriter().open("C:\\Users\\Bharath\\Desktop\\CsvFormatter\\src\\main\\resources\\output\\Attendance21_25Data.csv") {
-                    writeRow("roll_no", "name", "batch", "branch", "attendance","college")
-                    finalList.forEach {
+                csvWriter().open(
+                    "C:\\Users\\Bharath\\Desktop\\CsvFormatter\\src\\main\\resources\\output\\gcc_attendance.csv",
+                ) {
+                    writeRow("roll_no", "name", "batch", "branch", "attendance", "college")
+                    list.forEach {
 
                         it.apply {
 
                             val json = Gson().toJson(arrayOf(attendance))
                             writeRow(
-                                rollNo, name, batch, branch, json.toString(),college
+                                rollNo, name, batch, branch, json.toString(), college
                             )
                         }
 

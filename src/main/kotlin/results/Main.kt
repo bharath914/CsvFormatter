@@ -5,13 +5,18 @@ package results
 import com.github.doyaaaaaken.kotlincsv.dsl.csvReader
 import com.github.doyaaaaaken.kotlincsv.dsl.csvWriter
 import com.google.gson.Gson
+import com.mongodb.client.model.UpdateOptions
+import com.mongodb.kotlin.client.coroutine.MongoClient
 import kotlinx.coroutines.Dispatchers.IO
+import kotlinx.coroutines.async
 import kotlinx.coroutines.coroutineScope
 import kotlinx.coroutines.launch
 import kotlinx.serialization.Serializable
+import org.bson.Document
 import kotlin.math.min
 
-
+//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
+// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 suspend fun main() {
     val format = FormatCsv()
     format.main()
@@ -82,6 +87,7 @@ data class StudentResult(
  * @property FormatCsv : CSV Formatter
  * @property main() : main method
  */
+@Suppress("DeferredResultUnused")
 class FormatCsv {
     /**
      * @param list : stores the data from the csv file to this list
@@ -92,14 +98,20 @@ class FormatCsv {
     private val finalResult = arrayListOf<StudentResult>()
 
 
+    private val mongoClient = MongoClient.Factory.create("mongodb://localhost:27017")
+    private val database = mongoClient.getDatabase("StudentResults")
+    private val resultCollection = database.getCollection<Document>("SemResults")
+
+
     suspend fun main() {
+
 
         println("Starting work")
 
         /**
          * @param csvReader().open() : Opens the CSV Files from the resources
          */
-        csvReader().open("C:\\Users\\Bharath\\Desktop\\CsvFormatter\\src\\main\\resources\\assests\\ResultsUpto22.csv") {
+        csvReader().open("C:\\Users\\Bharath\\Downloads\\206Q1A4204RESULT.csv") {
             readAllAsSequence().forEachIndexed { ind: Int, row: List<String> ->
                 if (ind != 0) {
                     list.add(
@@ -177,6 +189,7 @@ class FormatCsv {
 
                         semRes.forEachIndexed { _, result ->
 
+
                             if (subjectSet.containsKey(result.subjectCode)) {
                                 val prev = subjectSet[result.subjectCode]!!
                                 val prevGrade = prev.grade
@@ -184,8 +197,11 @@ class FormatCsv {
                                 val bestGrade = compareGrades(prevGrade, currentGrade)
 
 
-                                if ((prev.grade == "F" && result.grade != "F") || (prev.grade == "ABSENT" && result.grade != "F") || (result.grade == "AB" && prev.grade != "AB")) {
-                                    backlogs--
+                                if ((prev.grade == "F" && result.grade != "F") || (prev.grade == "ABSENT" && result.grade != "F") || (prev.grade == "ABSENT" && result.grade != "ABSENT")) {
+                                    if (result.credits.toInt()>0) {
+                                        backlogs--
+                                    }
+                                    println("Current sem is $sem and Backlogs reduced by 1 = $backlogs")
                                     subjectSet.replace(result.subjectCode, result)
                                 }
                                 if (prev.grade != "F" && prev.grade != "COMPLE" && prev.grade != "ABSENT" && prev.grade != "AB") {
@@ -204,7 +220,7 @@ class FormatCsv {
 
                             } else {
                                 subjectSet[result.subjectCode] = result
-                                if (result.grade == "F" || result.grade == "ABSENT" || result.grade == "AB") backlogs++
+                                if (result.grade == "F" || result.grade == "ABSENT") backlogs++
 
                                 if (!gradeSet.containsKey(result.subjectCode + result.grade)) {
                                     totalCredits += result.credits.toFloat()
@@ -227,6 +243,8 @@ class FormatCsv {
                             totalPercentage = "$percent",
                             backlogs = backlogs
                         )
+
+                        println("current sem backlogs = $backlogs")
                         perSemList.add(
                             currSemRes
                         )
@@ -253,9 +271,7 @@ class FormatCsv {
                             }
                         )
                     )
-//                    println("The rollNo is $rollNo and total backlogs is $totalBacklogs")
-
-
+                    println("Total Backlogs for student $rollNo is $totalBacklogs")
                 }
                 writeToCSV()
             }
@@ -271,34 +287,47 @@ class FormatCsv {
 
     private suspend fun writeToCSV() {
         coroutineScope {
+            async {
+//                writeToMongoDb(finalResult)
+            }
             launch(IO) {
-
-
-                csvWriter().open("C:\\Users\\Bharath\\Desktop\\CsvFormatter\\src\\main\\resources\\output\\FormattedResults21_25.csv") {
+                csvWriter().open("C:\\Users\\Bharath\\Desktop\\CsvFormatter\\src\\main\\resources\\output\\206Q1A4204RESULT.csv") {
                     writeRow("rollNo", "totalPercentage", "totalCgpa", "totalBacklogs", "semResult")
-
-
+                    val rollNoSet = hashSetOf<String>()
                     finalResult.forEachIndexed { _, studentResult ->
-                        val jsonSemResult = Gson().toJson(studentResult.semResult)
+                        if (rollNoSet.contains(studentResult.rollNo).not()) {
+                            val jsonSemResult = Gson().toJson(studentResult.semResult)
 
-                        writeRow(
-                            studentResult.rollNo,
-                            studentResult.totalPercentage,
-                            studentResult.totalCgpa,
-                            studentResult.totalBacklogs,
-                            jsonSemResult
+                            writeRow(
+                                studentResult.rollNo,
+                                studentResult.totalPercentage,
+                                studentResult.totalCgpa,
+                                studentResult.totalBacklogs,
+                                jsonSemResult
 
-                        )
-
-
-
-//                        println(jsonSemResult)
+                            )
+                            rollNoSet.add(studentResult.rollNo);
+                        }
                     }
                 }
             }
         }
 
     }
+
+
+    private suspend fun writeToMongoDb(list: List<StudentResult>) {
+        for (result in list) {
+            val json = Gson().toJson(result)
+            val bson = Document.parse(json)
+
+            val filter = Document("rollNo", result.rollNo)
+            val update = Document("\$set", bson)
+            resultCollection.updateOne(filter, update, UpdateOptions().upsert(true))
+        }
+
+    }
+
 
     /**
      * As per JNTUK Grading System
