@@ -111,7 +111,7 @@ class FormatCsv {
         /**
          * @param csvReader().open() : Opens the CSV Files from the resources
          */
-        csvReader().open("C:\\Users\\Bharath\\Downloads\\206Q1A4204RESULT.csv") {
+        csvReader().open("C:\\Users\\91918\\Downloads\\ALLYEARRESULTSR20.csv") {
             readAllAsSequence().forEachIndexed { ind: Int, row: List<String> ->
                 if (ind != 0) {
                     list.add(
@@ -198,7 +198,7 @@ class FormatCsv {
 
 
                                 if ((prev.grade == "F" && result.grade != "F") || (prev.grade == "ABSENT" && result.grade != "F") || (prev.grade == "ABSENT" && result.grade != "ABSENT")) {
-                                    if (result.credits.toInt()>0) {
+                                    if (result.credits.toFloat()>0f) {
                                         backlogs--
                                     }
                                     println("Current sem is $sem and Backlogs reduced by 1 = $backlogs")
@@ -291,7 +291,7 @@ class FormatCsv {
 //                writeToMongoDb(finalResult)
             }
             launch(IO) {
-                csvWriter().open("C:\\Users\\Bharath\\Desktop\\CsvFormatter\\src\\main\\resources\\output\\206Q1A4204RESULT.csv") {
+                csvWriter().open("D:\\java\\csvformatter\\src\\main\\resources\\output\\allyearresultformatted.csv") {
                     writeRow("rollNo", "totalPercentage", "totalCgpa", "totalBacklogs", "semResult")
                     val rollNoSet = hashSetOf<String>()
                     finalResult.forEachIndexed { _, studentResult ->
