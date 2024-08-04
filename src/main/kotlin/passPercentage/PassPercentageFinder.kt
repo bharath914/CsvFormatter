@@ -1,6 +1,7 @@
 package passPercentage
 
 import com.github.doyaaaaaken.kotlincsv.dsl.csvReader
+import com.github.doyaaaaaken.kotlincsv.dsl.csvWriter
 import kotlinx.coroutines.coroutineScope
 import kotlinx.coroutines.launch
 import results.Result
@@ -14,8 +15,19 @@ suspend fun main() {
     percentageFinder.formatter()
 }
 
+data class CsvDataList(
+    val subjectCode: String,
+    val subjectName: String,
+    val passPercentage: Float,
+    val totalPass: Int,
+    val totalAttended: Int
+)
+
 //
 class PassPercentageFinder {
+
+    private val csvList = mutableListOf<CsvDataList>()
+
     private val resultList = mutableListOf<Result>()
     private val r20TwoOneLabs = hashSetOf(
         "R2021123",
@@ -46,19 +58,20 @@ class PassPercentageFinder {
                 breakLine()
                 findPercentagePerSubject(subjectCode = "R2021422", subjectName = "OOP Java")
                 breakLine()
-                findPercentagePerSubject(subjectCode ="R2021431", subjectName ="CAI AI ")
+                findPercentagePerSubject(subjectCode = "R2021431", subjectName = "CAI AI ")
                 breakLine()
-                findPercentagePerSubject(subjectCode ="R2021052", subjectName ="Operating systems")
+                findPercentagePerSubject(subjectCode = "R2021052", subjectName = "Operating systems")
                 breakLine()
-                findPercentagePerSubject(subjectCode ="R2021061", subjectName ="Data Structure")
+                findPercentagePerSubject(subjectCode = "R2021061", subjectName = "Data Structure")
                 breakLine()
-                findPercentagePerSubject(subjectCode ="R2021062", subjectName ="Java Programming")
+                findPercentagePerSubject(subjectCode = "R2021062", subjectName = "Java Programming")
                 breakLine()
-                findPercentagePerSubject(subjectCode ="R2021421", subjectName ="CSM AI")
+                findPercentagePerSubject(subjectCode = "R2021421", subjectName = "CSM AI")
                 breakLine()
                 findPercentagePerSubject(subjectCode = "R2021441", subjectName = "Fundamentals of Data Science")
                 breakLine()
-                findPercentagePerSubject(subjectCode ="R2021451", subjectName ="AID AI")
+                findPercentagePerSubject(subjectCode = "R2021451", subjectName = "AID AI")
+                writeCsv()
             }
         }
 
@@ -75,7 +88,28 @@ class PassPercentageFinder {
             }
         }
         val percent = (totalPassCount.toFloat() / perSubjectList.size.toFloat()) * 100f
+        csvList.add(
+            CsvDataList(
+                subjectCode,
+                subjectName,
+                percent,
+                totalPassCount,
+                perSubjectList.size
+            )
+        )
         println("Total Pass Percentage of $subjectName is : $percent")
+    }
+
+
+    private fun writeCsv() {
+        val path = "C:\\Users\\Bharath\\Desktop\\CsvFormatter\\src\\main\\kotlin\\passPercentage\\2_1PassPercentage.csv"
+        csvWriter().open(path) {
+            writeRow("subject code", "subject name", "pass percentage","passed count","total Attended")
+            csvList.forEach { data ->
+                writeRow(data.subjectCode, data.subjectName, data.passPercentage,data.totalPass,data.totalAttended)
+
+            }
+        }
     }
 
     private fun findTotalPercentage() {

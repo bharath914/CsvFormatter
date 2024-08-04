@@ -1,0 +1,2064 @@
+{
+  "college": "KIET",
+  "semesters": [
+    {
+      "semester": "1-1",
+      "subjects": [
+        {
+          "name": "Mathematics 1",
+          "pyqs": [
+            {
+              "paperLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pyqs/R20/1-1/M-1/REG/REG%20MATHEMATICS-I-APRIL-2022.pdf",
+              "paperType": "Reg",
+              "paperYear": "April 2022"
+            },
+            {
+              "paperLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pyqs/R20/1-1/M-1/REG/REG%20MATHEMATICS-I-FEB-2023.pdf",
+              "paperType": "Reg",
+              "paperYear": "Feb 2022"
+            },
+            {
+              "paperLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pyqs/R20/1-1/M-1/SUP/SUP%20MATHEMATICS-I-AUG-SEPT-2022.pdf",
+              "paperType": "Sup",
+              "paperYear": "Aug 2022"
+            },
+            {
+              "paperLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pyqs/R20/1-1/M-1/SUP/SUP%20MATHEMATICS-I-JULY-AUG-2023.pdf",
+              "paperType": "Sup",
+              "paperYear": "July 2023"
+            }
+          ],
+          "units": [
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/1-1/MATHEMATICS-1/M1%20-%20UNIT-1.pdf",
+              "unitName": "Unit 1"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/1-1/MATHEMATICS-1/M1%20-%20UNIT-2.pdf",
+              "unitName": "Unit 2"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/1-1/MATHEMATICS-1/M1%20-%20UNIT-3.pdf",
+              "unitName": "Unit 3"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/1-1/MATHEMATICS-1/M1%20-%20UNIT-4.pdf",
+              "unitName": "Unit 4"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/1-1/MATHEMATICS-1/M1%20-%20UNIT-5.pdf",
+              "unitName": "Unit 5"
+            }
+          ],
+          "commonFor": "CAI,CSC,CSM,AID,CSD",
+          "subjectCode": "R201101"
+        },
+        {
+          "name": "English",
+          "pyqs": [
+            {
+              "paperLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pyqs/R20/1-1/ENGLISH/REG/REG%20COMMUNICATIVE-ENGLISH-APRIL-2022.pdf",
+              "paperType": "Reg",
+              "paperYear": "April 2022"
+            },
+            {
+              "paperLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pyqs/R20/1-1/ENGLISH/REG/REG%20COMMUNICATIVE-ENGLISH-FEB-2023.pdf",
+              "paperType": "Reg",
+              "paperYear": "Feb 2023"
+            },
+            {
+              "paperLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pyqs/R20/1-1/ENGLISH/SUP/SUP%20COMMUNICATIVE-ENGLISH-AUG-SEPT-2022.pdf",
+              "paperType": "Sup",
+              "paperYear": "Aug 2022"
+            },
+            {
+              "paperLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pyqs/R20/1-1/ENGLISH/SUP/SUP%20COMMUNICATIVE-ENGLISH-JULY-AUG-2023.pdf",
+              "paperType": "Sup",
+              "paperYear": "July 2023"
+            }
+          ],
+          "units": [
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/1-1/ENGLISH/R20%20English%20-All%20Units.pdf?t=2024-02-16T14%3A42%3A47.172Z",
+              "unitName": "All Unit R20"
+            }
+          ],
+          "commonFor": "CAI,CSC,CSM,AID,CSD",
+          "subjectCode": "R201102"
+        },
+        {
+          "name": "C Programming",
+          "pyqs": [
+            {
+              "paperLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pyqs/R20/1-1/C-PROGRAMMING/REG%20PROGRAMMING-FOR-PROBLEM-SOLVING-USING-C-FEB-2023.pdf",
+              "paperType": "Reg",
+              "paperYear": "Feb 2023"
+            },
+            {
+              "paperLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pyqs/R20/1-1/C-PROGRAMMING/SUP/SUP%20PROGRAMMING-FOR-PROBLEM-SOLVING-USING-C-JULY-AUG-2023%20(1).pdf",
+              "paperType": "Sup",
+              "paperYear": "Aug 2022"
+            }
+          ],
+          "units": [
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/1-1/C%20PROGRAMMING%20/C%20PROGRAMMING%20UNIT-1.PDF",
+              "unitName": "Unit 1"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/1-1/C%20PROGRAMMING%20/C%20PROGRAMMING%20UNIT-2.PDF",
+              "unitName": "Unit 2"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/1-1/C%20PROGRAMMING%20/C%20PROGRAMMING%20UNIT-3.PDF",
+              "unitName": "Unit 3"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/1-1/C%20PROGRAMMING%20/C%20PROGRAMMING%20UNIT-4.PDF",
+              "unitName": "Unit 4"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/1-1/C%20PROGRAMMING%20/C%20PROGRAMMING%20UNIT-5.PDF",
+              "unitName": "Unit 5"
+            }
+          ],
+          "commonFor": "CAI,CSC,CSM,AID,CSD",
+          "subjectCode": "R201110"
+        },
+        {
+          "name": "Applied Physics",
+          "pyqs": [
+            {
+              "paperLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pyqs/R20/1-1/APPLIED%20PHYSICS/REG/REGULAR%20APPLIED%20PHYSICS%20%20APRIL%202022.pdf",
+              "paperType": "Reg",
+              "paperYear": "April 2022"
+            },
+            {
+              "paperLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pyqs/R20/1-1/APPLIED%20PHYSICS/REG/REGULAR%20APPLIED%20PHYSICS%20%20FEB%202023.pdf",
+              "paperType": "Reg",
+              "paperYear": "Feb 2023"
+            },
+            {
+              "paperLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pyqs/R20/1-1/APPLIED%20PHYSICS/SUP/SUPPLY%20APPLIED%20PHYSICS%20AUG%202022.pdf",
+              "paperType": "Sup",
+              "paperYear": "Aug 2022"
+            },
+            {
+              "paperLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pyqs/R20/1-1/APPLIED%20PHYSICS/SUP/SUPPLY%20APPLIED%20PHYSICS%20JULY%202023.pdf",
+              "paperType": "Sup",
+              "paperYear": "July 2023"
+            }
+          ],
+          "units": [
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/1-1/APPLIED%20PHYSICS/APPLIED%20PHYSICS%20-%20Unit-1.pdf",
+              "unitName": "Unit 1"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/1-1/APPLIED%20PHYSICS/APPLIED%20PHYSICS%20-%20Unit-2.pdf",
+              "unitName": "Unit 2"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/1-1/APPLIED%20PHYSICS/APPLIED%20PHYSICS%20-%20Unit-3.pdf",
+              "unitName": "Unit 3"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/1-1/APPLIED%20PHYSICS/APPLIED%20PHYSICS%20-%20Unit-4.pdf",
+              "unitName": "Unit 4"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/1-1/APPLIED%20PHYSICS/APPLIED%20PHYSICS%20-%20Unit-5.pdf",
+              "unitName": "Unit 5"
+            }
+          ],
+          "commonFor": "CSC",
+          "subjectCode": "R201117"
+        },
+        {
+          "name": "Applied Chemistry",
+          "pyqs": [
+            {
+              "paperLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pyqs/R20/1-1/APPLIED%20CHEMISTRY/REG/REG%20APPLIED%20CHEMISTRY%20FEB%202023.pdf",
+              "paperType": "Reg",
+              "paperYear": "Feb 2023"
+            },
+            {
+              "paperLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pyqs/R20/1-1/APPLIED%20CHEMISTRY/REG/REG%20APPLIED%20CHEMISTRY%20NOV%202022.pdf",
+              "paperType": "Reg",
+              "paperYear": "Nov 2022"
+            },
+            {
+              "paperLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pyqs/R20/1-1/APPLIED%20CHEMISTRY/SUP/SUP%20APPLIED%20CHEMISRTRY%20JULY%202023.pdf",
+              "paperType": "Sup",
+              "paperYear": "Aug 2022"
+            },
+            {
+              "paperLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pyqs/R20/1-1/APPLIED%20CHEMISTRY/SUP/SUP%20APPLIED%20CHEMISTRY%20AUG%202022.pdf",
+              "paperType": "Sup",
+              "paperYear": "Aug 2022"
+            }
+          ],
+          "units": [
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/1-2/APPLIED%20CHEMISTRY/APPLIED%20CHEMISTRY%20-%20UNIT-1.pdf",
+              "unitName": "Unit 1"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/1-2/APPLIED%20CHEMISTRY/APPLIED%20CHEMISTRY%20-%20UNIT-2.pdf",
+              "unitName": "Unit 2"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/1-2/APPLIED%20CHEMISTRY/APPLIED%20CHEMISTRY%20-%20UNIT-3.PDF",
+              "unitName": "Unit 3"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/1-2/APPLIED%20CHEMISTRY/APPLIED%20CHEMISTRY%20-%20UNIT-4.PDF",
+              "unitName": "Unit 4"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/1-2/APPLIED%20CHEMISTRY/APPLIED%20CHEMISTRY%20-%20UNIT-5.PDF",
+              "unitName": "Unit 5"
+            }
+          ],
+          "commonFor": "CAI,CSM,AID,CSD",
+          "subjectCode": "R201115"
+        }
+      ]
+    },
+    {
+      "semester": "1-2",
+      "subjects": [
+        {
+          "name": "Mathematics 2",
+          "pyqs": [
+            {
+              "paperLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pyqs/R20/1-2/M-2/REG/REG%20MATHEMATICS-II-AUG-2022.pdf",
+              "paperType": "Reg",
+              "paperYear": "Aug 2022"
+            },
+            {
+              "paperLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pyqs/R20/1-2/M-2/SUP/SUP%20MATHEMATICS-II%20SEPT%202021.pdf",
+              "paperType": "Sup",
+              "paperYear": "Sep 2021"
+            },
+            {
+              "paperLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pyqs/R20/1-2/M-2/SUP/SUP%20MATHEMATICS-II-MARCH-2022.pdf",
+              "paperType": "Sup",
+              "paperYear": "Mar 2022"
+            },
+            {
+              "paperLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pyqs/R20/1-2/M-2/SUP/SUP%20MATHEMATICS-II-JAN-2023.pdf",
+              "paperType": "Sup",
+              "paperYear": "Jan 2023"
+            }
+          ],
+          "units": [
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/1-2/M-2/M2%20-%20UNIT-1.pdf?t=2024-02-16T14%3A50%3A55.828Z",
+              "unitName": "Unit 1"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/1-2/M-2/M2%20-%20UNIT-2.pdf",
+              "unitName": "Unit 2"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/1-2/M-2/M2%20-%20UNIT-3.pdf?t=2024-02-16T14%3A51%3A53.973Z",
+              "unitName": "Unit 3"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/1-2/M-2/M2%20-%20UNIT-4.pdf",
+              "unitName": "Unit 4"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/1-2/M-2/M2%20-%20UNIT-5.pdf",
+              "unitName": "Unit 5"
+            }
+          ],
+          "commonFor": "CAI,CSC,CSM,AID,CSD",
+          "subjectCode": "R201201"
+        },
+        {
+          "name": "Data Structures",
+          "pyqs": [
+            {
+              "paperLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pyqs/R20/1-2/DS/REG/REG%20DATA-STRUCTURES-AUG-2022.pdf",
+              "paperType": "Reg",
+              "paperYear": "Aug 2022"
+            },
+            {
+              "paperLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pyqs/R20/1-2/DS/REG/REG%20DATA-STRUCTURES-JULY-AUG-2023.pdf",
+              "paperType": "Reg",
+              "paperYear": "July 2023"
+            },
+            {
+              "paperLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pyqs/R20/1-2/DS/SUP/SUP%20DATA-STRUCTURES-JAN-2023.pdf",
+              "paperType": "Sup",
+              "paperYear": "Jan 2023"
+            },
+            {
+              "paperLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pyqs/R20/1-2/DS/SUP/SUP%20DATA-STRUCTURES-MARCH-2022.pdf",
+              "paperType": "Sup",
+              "paperYear": "Mar 2022"
+            }
+          ],
+          "units": [
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/1-2/DATA%20STRUCTERS/DS%20UNIT%201.pdf?t=2024-02-16T16%3A01%3A52.866Z",
+              "unitName": "Unit 1"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/1-2/DATA%20STRUCTERS/DS%20UNIT%202.pdf",
+              "unitName": "Unit 2"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/1-2/DATA%20STRUCTERS/DS%20UNIT%203.pdf?t=2024-02-16T16%3A02%3A20.212Z",
+              "unitName": "Unit 3"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/1-2/DATA%20STRUCTERS/DS%20UNIT%204.pdf",
+              "unitName": "Unit 4"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/1-2/DATA%20STRUCTERS/DS%20UNIT%205.pdf",
+              "unitName": "Unit 5"
+            }
+          ],
+          "commonFor": "CAI,CSM,AID,CSD",
+          "subjectCode": "R201218"
+        },
+        {
+          "name": "Applied Chemistry",
+          "pyqs": [
+            {
+              "paperLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pyqs/R20/1-1/APPLIED%20CHEMISTRY/REG/REG%20APPLIED%20CHEMISTRY%20FEB%202023.pdf",
+              "paperType": "Reg",
+              "paperYear": "Feb 2023"
+            },
+            {
+              "paperLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pyqs/R20/1-1/APPLIED%20CHEMISTRY/REG/REG%20APPLIED%20CHEMISTRY%20NOV%202022.pdf",
+              "paperType": "Reg",
+              "paperYear": "Nov 2022"
+            },
+            {
+              "paperLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pyqs/R20/1-1/APPLIED%20CHEMISTRY/SUP/SUP%20APPLIED%20CHEMISRTRY%20JULY%202023.pdf",
+              "paperType": "Sup",
+              "paperYear": "Aug 2022"
+            },
+            {
+              "paperLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pyqs/R20/1-1/APPLIED%20CHEMISTRY/SUP/SUP%20APPLIED%20CHEMISTRY%20AUG%202022.pdf",
+              "paperType": "Sup",
+              "paperYear": "Aug 2022"
+            }
+          ],
+          "units": [
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/1-2/APPLIED%20CHEMISTRY/APPLIED%20CHEMISTRY%20-%20UNIT-1.pdf",
+              "unitName": "Unit 1"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/1-2/APPLIED%20CHEMISTRY/APPLIED%20CHEMISTRY%20-%20UNIT-2.pdf",
+              "unitName": "Unit 2"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/1-2/APPLIED%20CHEMISTRY/APPLIED%20CHEMISTRY%20-%20UNIT-3.PDF",
+              "unitName": "Unit 3"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/1-2/APPLIED%20CHEMISTRY/APPLIED%20CHEMISTRY%20-%20UNIT-4.PDF",
+              "unitName": "Unit 4"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/1-2/APPLIED%20CHEMISTRY/APPLIED%20CHEMISTRY%20-%20UNIT-5.PDF",
+              "unitName": "Unit 5"
+            }
+          ],
+          "commonFor": "CSC",
+          "subjectCode": "R201115"
+        },
+        {
+          "name": "Digital Logic Design",
+          "pyqs": [
+            {
+              "paperLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pyqs/R20/1-2/DLD/REG/REG%20DIGITAL%20LOGIC%20DESIGN%20SEPT%202021.pdf",
+              "paperType": "Reg",
+              "paperYear": "Sep 2021"
+            },
+            {
+              "paperLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pyqs/R20/1-2/DLD/REG/REG%20DIGITAL-LOGIC-DESIGN-AUG-2022.pdf",
+              "paperType": "Reg",
+              "paperYear": "Aug 2022"
+            },
+            {
+              "paperLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pyqs/R20/1-2/DLD/SUP/SUP%20DIGITAL-LOGIC-DESIGN-JAN-2023.pdf",
+              "paperType": "Sup",
+              "paperYear": "Jan 2023"
+            },
+            {
+              "paperLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pyqs/R20/1-2/DLD/SUP/SUP%20DIGITAL-LOGIC-DESIGN-MARCH-2022.pdf",
+              "paperType": "Sup",
+              "paperYear": "Mar 2022"
+            }
+          ],
+          "units": [
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/1-2/DLD/DLD%20UNIT-1.PDF",
+              "unitName": "Unit 1"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/1-2/DLD/DLD%20UNIT-2.PDF",
+              "unitName": "Unit 2"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/1-2/DLD/DLD%20UNIT-3.PDF",
+              "unitName": "Unit 3"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/1-2/DLD/DLD%20UNIT-4.PDF",
+              "unitName": "Unit 4"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/1-2/DLD/DLD%20UNIT-5.PDF",
+              "unitName": "Unit 5"
+            }
+          ],
+          "commonFor": "CAI,CSC,CSM,AID,CSD",
+          "subjectCode": "R201221"
+        },
+        {
+          "name": "Applied Physics",
+          "pyqs": [
+            {
+              "paperLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pyqs/R20/1-1/APPLIED%20PHYSICS/REG/REGULAR%20APPLIED%20PHYSICS%20%20APRIL%202022.pdf",
+              "paperType": "Reg",
+              "paperYear": "April 2022"
+            },
+            {
+              "paperLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pyqs/R20/1-1/APPLIED%20PHYSICS/REG/REGULAR%20APPLIED%20PHYSICS%20%20FEB%202023.pdf",
+              "paperType": "Reg",
+              "paperYear": "Feb 2023"
+            },
+            {
+              "paperLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pyqs/R20/1-1/APPLIED%20PHYSICS/SUP/SUPPLY%20APPLIED%20PHYSICS%20AUG%202022.pdf",
+              "paperType": "Sup",
+              "paperYear": "Aug 2022"
+            },
+            {
+              "paperLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pyqs/R20/1-1/APPLIED%20PHYSICS/SUP/SUPPLY%20APPLIED%20PHYSICS%20JULY%202023.pdf",
+              "paperType": "Sup",
+              "paperYear": "July 2023"
+            }
+          ],
+          "units": [
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/1-2/APPLIED%20PHYSICS/APPLIED%20PHYSICS%20-%20Unit-1.pdf",
+              "unitName": "Unit 1"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/1-2/APPLIED%20PHYSICS/APPLIED%20PHYSICS%20-%20Unit-2.pdf",
+              "unitName": "Unit 2"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/1-2/APPLIED%20PHYSICS/APPLIED%20PHYSICS%20-%20Unit-3.pdf",
+              "unitName": "Unit 3"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/1-2/APPLIED%20PHYSICS/APPLIED%20PHYSICS%20-%20Unit-4.pdf",
+              "unitName": "Unit 4"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/1-2/APPLIED%20PHYSICS/APPLIED%20PHYSICS%20-%20Unit-5.pdf",
+              "unitName": "Unit 5"
+            }
+          ],
+          "commonFor": "CAI,CSM,AID,CSD",
+          "subjectCode": "R201207"
+        },
+        {
+          "name": "Basic Electrical Engineering",
+          "pyqs": [
+            {
+              "paperLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pyqs/R20/1-2/BEEE/REG/REG%20BASIC-ELECTRICAL-AND-ELECTRONICS-ENGINEERING-CSE-JULY-2023.pdf",
+              "paperType": "Reg",
+              "paperYear": "July 2023"
+            },
+            {
+              "paperLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pyqs/R20/1-2/BEEE/REG/REG%20BASIC-ELECTRICAL-ELECTRONICS-ENGINEEERRING-AUG-2022.pdf",
+              "paperType": "Reg",
+              "paperYear": "Aug 2022"
+            },
+            {
+              "paperLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pyqs/R20/1-2/BEEE/SUP/SUP%20BASIC-ELECTRICAL-ELECTRONICS-ENGINEERING-JAN-2023.pdf",
+              "paperType": "Sup",
+              "paperYear": "Jan 2023"
+            },
+            {
+              "paperLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pyqs/R20/1-2/BEEE/SUP/SUP%20BASIC-ELECTRICAL-ELECTRONICS-ENGINEERING-MARCH-2022.pdf",
+              "paperType": "Sup",
+              "paperYear": "March 2022"
+            }
+          ],
+          "units": [
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/1-2/BEEE/BEEE%20-%20UNIT-1.pdf",
+              "unitName": "Unit 1"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/1-2/BEEE/BEEE%20-%20UNIT-2.pdf",
+              "unitName": "Unit 2"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/1-2/BEEE/BEEE%20-%20UNIT-3.pdf",
+              "unitName": "Unit 3"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/1-2/BEEE/BEEE%20-%20UNIT-4.pdf",
+              "unitName": "Unit 4"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/1-2/BEEE/BEEE%20-%20UNIT-5.pdf",
+              "unitName": "Unit 5"
+            }
+          ],
+          "commonFor": "CSC",
+          "subjectCode": "R201221"
+        },
+        {
+          "name": "Python Programming",
+          "pyqs": [
+            {
+              "paperLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pyqs/R20/1-2/PYTHON/REG/REG%20PYTHON-PROGRAMMING-AUG-2022.pdf",
+              "paperType": "Reg",
+              "paperYear": "Aug 2022"
+            },
+            {
+              "paperLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pyqs/R20/1-2/PYTHON/REG/REG%20PYTHON-PROGRAMMING-JAN-2023.pdf",
+              "paperType": "Reg",
+              "paperYear": "Jan 2023"
+            },
+            {
+              "paperLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pyqs/R20/1-2/PYTHON/SUP/SUP%20PYTHON-PROGRAMMING-JULY-AUG-2023.pdf",
+              "paperType": "Sup",
+              "paperYear": "Jul 2023"
+            },
+            {
+              "paperLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pyqs/R20/1-2/PYTHON/SUP/SUP%20PYTHON-PROGRAMMING-MARCH-2022.pdf",
+              "paperType": "Sup",
+              "paperYear": "March 2022"
+            }
+          ],
+          "units": [
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/1-2/PYTHON/PYTHON%20-%20UNIT-1.PDF",
+              "unitName": "Unit 1"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/1-2/PYTHON/PYTHON%20-%20UNIT-2.PDF",
+              "unitName": "Unit 2"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/1-2/PYTHON/PYTHON%20-%20UNIT-3.PDF",
+              "unitName": "Unit 3"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/1-2/PYTHON/PYTHON%20-%20UNIT-4.PDF",
+              "unitName": "Unit 4"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/1-2/PYTHON/PYTHON%20-%20UNIT-5.PDF",
+              "unitName": "Unit 5"
+            }
+          ],
+          "commonFor": "CAI,CSM,AID,CSD",
+          "subjectCode": "R201225"
+        },
+        {
+          "name": "Problem Solving Using Python Program",
+          "pyqs": [
+            {
+              "paperLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pyqs/R20/1-2/PROBLEM%20SOLVING%20PYTHON/REG/REG%20PROBLEM-SOLVING-USING-PYTHON-AUG-2022.pdf",
+              "paperType": "Reg",
+              "paperYear": "Aug 2022"
+            },
+            {
+              "paperLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pyqs/R20/1-2/PROBLEM%20SOLVING%20PYTHON/REG/REG%20PROBLEM-SOLVING-USING-PYTHON-JULY-AUG-2023.pdf",
+              "paperType": "Reg",
+              "paperYear": "July 2023"
+            },
+            {
+              "paperLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pyqs/R20/1-2/PROBLEM%20SOLVING%20PYTHON/SUP/SUP%20PROBLEM-SOLVING-USING-PYTHON-JAN-2023.pdf",
+              "paperType": "Sup",
+              "paperYear": "Jan 2023"
+            }
+          ],
+          "units": [
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/1-2/PYTHON/PYTHON%20-%20UNIT-1.PDF",
+              "unitName": "Unit 1"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/1-2/PYTHON/PYTHON%20-%20UNIT-2.PDF",
+              "unitName": "Unit 2"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/1-2/PYTHON/PYTHON%20-%20UNIT-3.PDF",
+              "unitName": "Unit 3"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/1-2/PYTHON/PYTHON%20-%20UNIT-4.PDF",
+              "unitName": "Unit 4"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/1-2/PYTHON/PYTHON%20-%20UNIT-5.PDF",
+              "unitName": "Unit 5"
+            }
+          ],
+          "commonFor": "CSC",
+          "subjectCode": "R201219"
+        }
+      ]
+    },
+    {
+      "semester": "2-1",
+      "subjects": [
+        {
+          "name": "Mathematics 3",
+          "pyqs": [
+            {
+              "paperLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pyqs/R20/2-1/M-3/REG/REG%20MATHEMATICS-III-Jan-2023.pdf",
+              "paperType": "Reg",
+              "paperYear": "Jan 2023"
+            },
+            {
+              "paperLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pyqs/R20/2-1/M-3/SUP/SUP%20MATHEMATICS%20-%20III%20FEB%202022.pdf",
+              "paperType": "Sup",
+              "paperYear": "Feb 2022"
+            },
+            {
+              "paperLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pyqs/R20/2-1/M-3/SUP/SUP%20MATHEMATICS-III-JULY-2022.pdf",
+              "paperType": "Sup",
+              "paperYear": "July 2022"
+            },
+            {
+              "paperLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pyqs/R20/2-1/M-3/SUP/SUP%20MATHEMATICS-III-july-2023.pdf",
+              "paperType": "Sup",
+              "paperYear": "July 2023"
+            }
+          ],
+          "units": [
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/2-1/M-3/M3%20-UNIT-1.pdf",
+              "unitName": "Unit 1"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/2-1/M-3/M3%20-UNIT-2.pdf",
+              "unitName": "Unit 2"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/2-1/M-3/M3%20-UNIT-3.pdf",
+              "unitName": "Unit 3"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/2-1/M-3/M3%20-UNIT-4.pdf",
+              "unitName": "Unit 4"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/2-1/M-3/M3%20-UNIT-5.pdf",
+              "unitName": "Unit 5"
+            }
+          ],
+          "commonFor": "CAI,CSC,CSM,AID,CSD",
+          "subjectCode": "R2021011"
+        },
+        {
+          "name": "MFCS",
+          "pyqs": [
+            {
+              "paperLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pyqs/R20/2-1/MFCS/REG/REG%20MATHEMATCIAL-FOUNDATIONS-OF-COMPUTER-SCIENCE-JAN-2023.pdf",
+              "paperType": "Reg",
+              "paperYear": "Jan 2023"
+            },
+            {
+              "paperLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pyqs/R20/2-1/MFCS/SUP/SUP%20MATHEMATCIAL%20FOUNDATIONS%20OF%20COMPUTER%20SCIENCE%20FEB%202022.pdf",
+              "paperType": "Sup",
+              "paperYear": "Feb 2022"
+            },
+            {
+              "paperLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pyqs/R20/2-1/MFCS/SUP/SUP%20MATHEMATCIAL-FOUNDATIONS-OF-COMPUTER-SCIENCE-JULY-2022.pdf",
+              "paperType": "Sup",
+              "paperYear": "July 2022"
+            },
+            {
+              "paperLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pyqs/R20/2-1/MFCS/SUP/SUP%20MATHEMATICAL-FOUNDATIONS-OF-COMPUTER-SCIENCE-JULY-2023.pdf",
+              "paperType": "Sup",
+              "paperYear": "July 2023"
+            }
+          ],
+          "units": [
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/2-1/MFCS/MFCS%20-%20UNIT-1.pdf",
+              "unitName": "Unit 1"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/2-1/MFCS/MFCS%20-%20UNIT-2.pdf",
+              "unitName": "Unit 2"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/2-1/MFCS/MFCS%20-%20UNIT-3.pdf",
+              "unitName": "Unit 3"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/2-1/MFCS/MFCS%20-%20UNIT-4.pdf",
+              "unitName": "Unit 4"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/2-1/MFCS/MFCS%20-%20UNIT-5.pdf",
+              "unitName": "Unit 5"
+            }
+          ],
+          "commonFor": "CAI,CSC,CSM,AID,CSD",
+          "subjectCode": "R2021054"
+        },
+        {
+          "name": "Artificial Intelligence",
+          "pyqs": [
+            {
+              "paperLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pyqs/R20/2-1/AI/REG/REG%20INTRODUCTION-TO-ARTIFICIAL-INTELLIGENCE-AND-MACHINE-LEARNING-JAN-2023.pdf",
+              "paperType": "Reg",
+              "paperYear": "Jan 2023"
+            },
+            {
+              "paperLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pyqs/R20/2-1/AI/SUP/SUP%20INTRODUCTION-TO-ARTIFICIAL-INTELLIGENCE-JULY-2023.pdf",
+              "paperType": "Sup",
+              "paperYear": "July 2023"
+            }
+          ],
+          "units": [
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/2-1/AI/AI%20-%20UNIT%20-%201.pdf?t=2024-02-20T06%3A48%3A57.248Z",
+              "unitName": "Unit 1"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/2-1/AI/AI%20-%20UNIT%20-%202.pdf",
+              "unitName": "Unit 2"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/2-1/AI/AI%20-%20UNIT%20-%203.pdf",
+              "unitName": "Unit 3"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/2-1/AI/AI%20-%20UNIT%20-%204.pdf",
+              "unitName": "Unit 4"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/2-1/AI/AI%20-%20UNIT%20-%205.pdf",
+              "unitName": "Unit 5"
+            }
+          ],
+          "commonFor": "CAI,CSM,AID,CSD",
+          "subjectCode": "R2021421"
+        },
+        {
+          "name": "Database Management Systems",
+          "pyqs": [
+            {
+              "paperLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pyqs/R20/2-1/DBMS/REG/REG%20DATABASE-MANAGEMENT-SYSTEMS-Jan-2023.pdf",
+              "paperType": "Reg",
+              "paperYear": "Jan 2023"
+            },
+            {
+              "paperLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pyqs/R20/2-1/DBMS/SUP/SUP%20DATABASE%20MANAGEMENT%20SYSTEMS%20FEB%202022.pdf",
+              "paperType": "Sup",
+              "paperYear": "Feb 2022"
+            },
+            {
+              "paperLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pyqs/R20/2-1/DBMS/SUP/SUP%20DATABASE-MANAGEMENT-SYSTEMS-JULY-2023.pdf",
+              "paperType": "Sup",
+              "paperYear": "July 2023"
+            }
+          ],
+          "units": [
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/2-1/DBMS/DBMS%20-%20UNIT-1.PDF",
+              "unitName": "Unit 1"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/2-1/DBMS/DBMS%20-%20UNIT-2.PDF",
+              "unitName": "Unit 2"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/2-1/DBMS/DBMS%20-%20UNIT-3.PDF",
+              "unitName": "Unit 3"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/2-1/DBMS/DBMS%20-%20UNIT-4.PDF",
+              "unitName": "Unit 4"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/2-1/DBMS/DBMS%20-%20UNIT-5.PDF",
+              "unitName": "Unit 5"
+            }
+          ],
+          "commonFor": "CAI,CSM,AID,CSD",
+          "subjectCode": "R2021121"
+        },
+        {
+          "name": "Object Oriented Programming - Java",
+          "pyqs": [
+            {
+              "paperLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pyqs/R20/2-1/JAVA/REG/REG%20OBJECT-ORIENTED-PROGRAMMING-WITH-JAVA-Jan-2023.pdf",
+              "paperType": "Reg",
+              "paperYear": "Jan 2023"
+            },
+            {
+              "paperLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pyqs/R20/2-1/JAVA/REG/REG%20OBJECT%20ORIENTED%20PROGRAMMING%20WITH%20JAVA%20FEB%202022.pdf",
+              "paperType": "Reg",
+              "paperYear": "Feb 2022"
+            },
+            {
+              "paperLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pyqs/R20/2-1/JAVA/SUP/SUP%20OBJECT-ORIENTED-PROGRAMMING-WITH-JAVA-JULY-2023.pdf",
+              "paperType": "Sup",
+              "paperYear": "July 2023"
+            }
+          ],
+          "units": [
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/2-1/JAVA/JAVA%20UNIT-1.pdf",
+              "unitName": "Unit 1"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/2-1/JAVA/JAVA%20UNIT-2.pdf",
+              "unitName": "Unit 2"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/2-1/JAVA/JAVA%20UNIT-3.pdf",
+              "unitName": "Unit 3"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/2-1/JAVA/JAVA%20UNIT-4.pdf",
+              "unitName": "Unit 4"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/2-1/JAVA/JAVA%20UNIT-5.pdf",
+              "unitName": "Unit 5"
+            }
+          ],
+          "commonFor": "CAI,CSC,CSM,AID,CSD",
+          "subjectCode": "R2021422"
+        },
+        {
+          "name": "Operating Systems",
+          "pyqs": [
+            {
+              "paperLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pyqs/R20/2-1/OS/REG/REG%20OPERATING-SYSTEMS-JAN-2023.pdf",
+              "paperType": "Reg",
+              "paperYear": "Jan 2023"
+            },
+            {
+              "paperLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pyqs/R20/2-1/OS/SUP/SUP%20OPERATING-SYSTEMS-JULY-2023.pdf",
+              "paperType": "Sup",
+              "paperYear": "July 2023"
+            }
+          ],
+          "units": [
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/2-1/OPERATING%20SYSTEMS/OS%20-%20UNIT-1.pdf?t=2024-02-20T06%3A55%3A58.624Z",
+              "unitName": "Unit 1"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/2-1/OPERATING%20SYSTEMS/OS%20-%20UNIT-2.pdf",
+              "unitName": "Unit 2"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/2-1/OPERATING%20SYSTEMS/OS%20-%20UNIT-3.pdf",
+              "unitName": "Unit 3"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/2-1/OPERATING%20SYSTEMS/OS%20-%20UNIT-4.pdf",
+              "unitName": "Unit 4"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/2-1/OPERATING%20SYSTEMS/OS%20-%20UNIT-5.pdf",
+              "unitName": "Unit 5"
+            }
+          ],
+          "commonFor": "CSC",
+          "subjectCode": "R2031422"
+        },
+        {
+          "name": "Data Structures",
+          "pyqs": [],
+          "units": [
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/1-2/DATA%20STRUCTERS/DS%20UNIT%201.pdf?t=2024-02-16T16%3A01%3A52.866Z",
+              "unitName": "Unit 1"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/1-2/DATA%20STRUCTERS/DS%20UNIT%202.pdf",
+              "unitName": "Unit 2"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/1-2/DATA%20STRUCTERS/DS%20UNIT%203.pdf?t=2024-02-16T16%3A02%3A20.212Z",
+              "unitName": "Unit 3"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/1-2/DATA%20STRUCTERS/DS%20UNIT%204.pdf",
+              "unitName": "Unit 4"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/1-2/DATA%20STRUCTERS/DS%20UNIT%205.pdf",
+              "unitName": "Unit 5"
+            }
+          ],
+          "commonFor": "CSC",
+          "subjectCode": "R201218"
+        }
+      ]
+    },
+    {
+      "semester": "2-2",
+      "subjects": [
+        {
+          "name": "Computer Organization",
+          "pyqs": [
+            {
+              "paperLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pyqs/R20/2-2/CO/REG/REG%20COMPUTER-ORGANIZATION-ARCHITECTURE-JUNE-JULY-2022.pdf",
+              "paperType": "Reg",
+              "paperYear": "June 2022"
+            },
+            {
+              "paperLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pyqs/R20/2-2/CO/REG/REG%20COMPUTER-ORGANIZATION-JULY-2023.pdf",
+              "paperType": "Reg",
+              "paperYear": "July 2023"
+            },
+            {
+              "paperLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pyqs/R20/2-2/CO/SUP/SUP%20COMPUTER-ORGANIZATION-ARCHITECTURE-DEC-2022.pdf",
+              "paperType": "Sup",
+              "paperYear": "Dec 2022"
+            }
+          ],
+          "units": [
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/2-2/CO/CO%20-UNIT-1.pdf",
+              "unitName": "Unit 1"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/2-2/CO/CO%20-UNIT-2.pdf",
+              "unitName": "Unit 2"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/2-2/CO/CO%20-UNIT-3.pdf",
+              "unitName": "Unit 3"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/2-2/CO/CO%20-UNIT-4.pdf",
+              "unitName": "Unit 4"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/2-2/CO/CO%20-UNIT-5.PDF",
+              "unitName": "Unit 5"
+            }
+          ],
+          "commonFor": "CAI,CSC,CSM,AID,CSD",
+          "subjectCode": "R2022421"
+        },
+        {
+          "name": " FORMAL LANGUAGES AND AUTOMATA THEORY(FLAT)",
+          "pyqs": [
+            {
+              "paperLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pyqs/R20/2-2/FLAT%20/REG/REG%20FORMAL-LANGUAGES-AND-AUTOMATA-THEORY-JUNE-JULY-2022.pdf",
+              "paperType": "Reg",
+              "paperYear": "June 2022"
+            },
+            {
+              "paperLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pyqs/R20/2-2/FLAT%20/REG/REG%20FORMAL-LANGUAGES-AND-AUTOMATA-THEORY-JULY-2023.pdf",
+              "paperType": "Reg",
+              "paperYear": "July 2023"
+            },
+            {
+              "paperLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pyqs/R20/2-2/FLAT%20/SUP/SUP%20FORMAL-LANGUAGES-AND-AUTOMATA-THEORY-DEC-2022.pdf",
+              "paperType": "Sup",
+              "paperYear": "Dec 2022"
+            }
+          ],
+          "units": [
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/2-2/FLAT/FLAT%20UNIT-1.PDF?t=2024-02-20T07%3A04%3A00.367Z",
+              "unitName": "Unit 1"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/2-2/FLAT/FLAT%20UNIT-2.PDF",
+              "unitName": "Unit 2"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/2-2/FLAT/FLAT%20UNIT-3.PDF",
+              "unitName": "Unit 3"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/2-2/FLAT/FLAT%20UNIT-4.PDF",
+              "unitName": "Unit 4"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/2-2/FLAT/FLAT%20UNIT-5.PDF",
+              "unitName": "Unit 5"
+            }
+          ],
+          "commonFor": "CAI,CSC,CSM,AID,CSD",
+          "subjectCode": "R2022053"
+        },
+        {
+          "name": "Probability & Statistics (P&S)",
+          "pyqs": [
+            {
+              "paperLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pyqs/R20/2-2/P%20AND%20S%20/REG/REG%20PROBABILITY-AND-STATISTICS-JUNE-JULY-2022.pdf",
+              "paperType": "Reg",
+              "paperYear": "June 2022"
+            },
+            {
+              "paperLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pyqs/R20/2-2/P%20AND%20S%20/REG/REG%20PROBABILITY-AND-STATISTICS-JULY-2023.pdf",
+              "paperType": "Reg",
+              "paperYear": "July 2023"
+            },
+            {
+              "paperLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pyqs/R20/2-2/P%20AND%20S%20/SUP/SUP%20PROBABILITY-AND-STATISTICS-DEC-2022.pdf",
+              "paperType": "Sup",
+              "paperYear": "Dec 2022"
+            }
+          ],
+          "units": [
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/2-2/P%20AND%20S/P&S%20UNIT-1.PDF",
+              "unitName": "Unit 1"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/2-2/P%20AND%20S/P&S%20UNIT-2.PDF",
+              "unitName": "Unit 2"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/2-2/P%20AND%20S/P&S%20UNIT-3.PDF",
+              "unitName": "Unit 3"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/2-2/P%20AND%20S/P&S%20UNIT-4.PDF",
+              "unitName": "Unit 4"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/2-2/P%20AND%20S/P&S%20UNIT-5.PDF",
+              "unitName": "Unit 5"
+            }
+          ],
+          "commonFor": "CAI,CSC,CSM,AID,CSD",
+          "subjectCode": "R2022051"
+        },
+        {
+          "name": "Data Warehousing & Data Mining(DWDM)",
+          "pyqs": [
+            {
+              "paperLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pyqs/R20/2-2/DWDM/SUP/SUP%20SINGLE%20SET%20DATA-WAREHOUSING-AND-DATA-MINING-JUNE-JULY-2022.pdf",
+              "paperType": "Sup",
+              "paperYear": "Jun 2022"
+            }
+          ],
+          "units": [
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/2-2/DWDM/DWDM%20UNIT-1.pdf",
+              "unitName": "Unit 1"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/2-2/DWDM/DWDM%20UNIT-2.pdf",
+              "unitName": "Unit 2"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/2-2/DWDM/DWDM%20UNIT-3.pdf",
+              "unitName": "Unit 3"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/2-2/DWDM/DWDM%20UNIT-4.pdf",
+              "unitName": "Unit 4"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/2-2/DWDM/DWDM%20UNIT-5.pdf",
+              "unitName": "Unit 5"
+            }
+          ],
+          "commonFor": "CAI,CSM,AID,CSD",
+          "subjectCode": "R2022422"
+        },
+        {
+          "name": "Database Management Systems",
+          "pyqs": [
+            {
+              "paperLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pyqs/R20/2-2/DBMS/SUP/SUP%20SINGLE%20SET%20DATABASE-MANAGEMENT-SYSTEMS-DEC-2022%20-%20Copy.pdf",
+              "paperType": "Sup",
+              "paperYear": "Dec 2022"
+            }
+          ],
+          "units": [
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/2-1/DBMS/DBMS%20-%20UNIT-1.PDF",
+              "unitName": "Unit 1"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/2-1/DBMS/DBMS%20-%20UNIT-2.PDF",
+              "unitName": "Unit 2"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/2-1/DBMS/DBMS%20-%20UNIT-3.PDF",
+              "unitName": "Unit 3"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/2-1/DBMS/DBMS%20-%20UNIT-4.PDF",
+              "unitName": "Unit 4"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/2-1/DBMS/DBMS%20-%20UNIT-5.PDF",
+              "unitName": "Unit 5"
+            }
+          ],
+          "commonFor": "CSC",
+          "subjectCode": "R2021121"
+        },
+        {
+          "name": "MANAGERIAL ECONOMICS AND FINANCIAL ACCOUNTANCY (MEFA)",
+          "pyqs": [
+            {
+              "paperLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pyqs/R20/2-2/MEFA/REG/REG%20MANAGERIAL-ECONOMICS-FINANCIAL-ACCOUNTANCY-JUNE-JULY-2022.pdf",
+              "paperType": "Reg",
+              "paperYear": "Jun 2022"
+            },
+            {
+              "paperLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pyqs/R20/2-2/MEFA/REG/REG%20MANAGERIAL-ECONOMICS-FINANCIAL-ACCOUNTANCY-JULY-2023.pdf",
+              "paperType": "Reg",
+              "paperYear": "July 2023"
+            },
+            {
+              "paperLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pyqs/R20/2-2/MEFA/SUP/SUP%20MANAGERIAL-ECONOMICS-AND-FINANCIAL-ACCOUNTANCY-DEC-2022.pdf",
+              "paperType": "Sup",
+              "paperYear": "Dec 2022"
+            }
+          ],
+          "units": [
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/2-2/MEFA/MEFA%20-%20UNIT-1.PDF",
+              "unitName": "Unit 1"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/2-2/MEFA/MEFA%20-%20UNIT-2.PDF",
+              "unitName": "Unit 2"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/2-2/MEFA/MEFA%20-%20UNIT-3.PDF",
+              "unitName": "Unit 3"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/2-2/MEFA/MEFA%20-%20UNIT-4.PDF",
+              "unitName": "Unit 4"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/2-2/MEFA/MEFA%20-%20UNIT-5.PDF",
+              "unitName": "Unit 5"
+            }
+          ],
+          "commonFor": "CAI,CSM,AID,CSD,CSC",
+          "subjectCode": "R2022055"
+        }
+      ]
+    },
+    {
+      "semester": "3-1",
+      "subjects": [
+        {
+          "name": "Compiler Design",
+          "pyqs": [
+            {
+              "paperLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pyqs/R20/3-1/CD/REG/REG%20COMPILER-DESIGN-JAN-2023.pdf",
+              "paperType": "Reg",
+              "paperYear": "Jan 2023"
+            },
+            {
+              "paperLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pyqs/R20/3-1/CD/SUP/SUP%20COMPILER-DESIGN-JULY-2023.pdf",
+              "paperType": "Sup",
+              "paperYear": "July 2023"
+            }
+          ],
+          "units": [
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/3-1/COMPILER%20DESIGN/CD%20UNIT-1.pdf",
+              "unitName": "Unit 1"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/3-1/COMPILER%20DESIGN/CD%20UNIT-2.PDF",
+              "unitName": "Unit 2"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/3-1/COMPILER%20DESIGN/CD%20UNIT-3.pdf",
+              "unitName": "Unit 3"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/3-1/COMPILER%20DESIGN/CD%20UNIT-4.pdf",
+              "unitName": "Unit 4"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/3-1/COMPILER%20DESIGN/CD%20UNIT-5.PDF",
+              "unitName": "Unit 5"
+            }
+          ],
+          "commonFor": "CAI,CSC,CSM,AID,CSD",
+          "subjectCode": "R2031421"
+        },
+        {
+          "name": "Computer Networks",
+          "pyqs": [
+            {
+              "paperLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pyqs/R20/3-1/CN/REG/REG%20COMPUTER-NETWORKS-JAN-2023.pdf",
+              "paperType": "Reg",
+              "paperYear": "Jan 2023"
+            },
+            {
+              "paperLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pyqs/R20/3-1/CN/SUP/SUP%20COMPUTER-NETWORKS-JULY-2023.pdf",
+              "paperType": "Sup",
+              "paperYear": "July 2023"
+            }
+          ],
+          "units": [
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/3-1/COMPUTER%20NETWORKS/CN%20UNIT-1.PDF",
+              "unitName": "Unit 1"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/3-1/COMPUTER%20NETWORKS/CN%20UNIT-2.PDF",
+              "unitName": "Unit 2"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/3-1/COMPUTER%20NETWORKS/CN%20UNIT-3.PDF",
+              "unitName": "Unit 3"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/3-1/COMPUTER%20NETWORKS/CN%20UNIT-4.PDF",
+              "unitName": "Unit 4"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/3-1/COMPUTER%20NETWORKS/CN%20UNIT-5.PDF",
+              "unitName": "Unit 5"
+            }
+          ],
+          "commonFor": "CSC",
+          "subjectCode": "R2032421"
+        },
+        {
+          "name": "Design and Analysis of Algorithm",
+          "pyqs": [
+            {
+              "paperLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pyqs/R20/3-1/DAA/REG/REG%20DESIGN-AND-ANALYSIS-OF-ALGORITHMS-JAN-2023.pdf",
+              "paperType": "Reg",
+              "paperYear": "Jan 2023"
+            },
+            {
+              "paperLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pyqs/R20/3-1/DAA/SUP/SUP%20DESIGN-AND-ANALYSIS-OF-ALGORITHMS-JULY-2023.pdf",
+              "paperType": "Sup",
+              "paperYear": "July 2023"
+            }
+          ],
+          "units": [
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/3-1/DAA/DAA%20-UNIT-1.pdf",
+              "unitName": "Unit 1"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/3-1/DAA/DAA%20-UNIT-2.pdf",
+              "unitName": "Unit 2"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/3-1/DAA/DAA%20-UNIT-3.pdf",
+              "unitName": "Unit 3"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/3-1/DAA/DAA%20-UNIT-4.pdf",
+              "unitName": "Unit 4"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/3-1/DAA/DAA%20-UNIT-5.pdf",
+              "unitName": "Unit 5"
+            }
+          ],
+          "commonFor": "CSC",
+          "subjectCode": "R2032423"
+        },
+        {
+          "name": "Machine Learning",
+          "pyqs": [
+            {
+              "paperLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pyqs/R20/3-1/ML/REG/REG%20MACHINE-LEARNING-JAN-2023.pdf",
+              "paperType": "Reg",
+              "paperYear": "Jan 2023"
+            },
+            {
+              "paperLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pyqs/R20/3-1/ML/SUP/SUP%20MACHINE-LEARNING-JULY-2023.pdf",
+              "paperType": "Sup",
+              "paperYear": "July 2023"
+            }
+          ],
+          "units": [
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/3-1/MACHINE%20LEARNING/ML%20UNIT-I.PDF",
+              "unitName": "Unit 1"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/3-1/MACHINE%20LEARNING/ML%20UNIT-II.PDF",
+              "unitName": "Unit 2"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/3-1/MACHINE%20LEARNING/ML%20UNIT-III.PDF",
+              "unitName": "Unit 3"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/3-1/MACHINE%20LEARNING/ML%20UNIT-IV.PDF",
+              "unitName": "Unit 4"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/3-1/MACHINE%20LEARNING/ML%20UNIT-V.PDF",
+              "unitName": "Unit 5"
+            }
+          ],
+          "commonFor": "CAI,CSM,AID,CSD",
+          "subjectCode": "R2031423"
+        },
+        {
+          "name": "Optimizations in operation research (OOR)",
+          "pyqs": [],
+          "units": [
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/3-1/OOR/OOR%20UNIT%20-%201.pdf",
+              "unitName": "Unit 1"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/3-1/OOR/OOR%20UNIT%20-%202.pdf",
+              "unitName": "Unit 2"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/3-1/OOR/OOR%20UNIT%20-%203.pdf",
+              "unitName": "Unit 3"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/3-1/OOR/OOR%20UNIT%20-%204.pdf",
+              "unitName": "Unit 4"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/3-1/OOR/OOR%20UNIT%20-%205.pdf",
+              "unitName": "Unit 5"
+            }
+          ],
+          "commonFor": "CAI,CSM,AID,CSD",
+          "subjectCode": "R203105E"
+        },
+        {
+          "name": "Operating Systems",
+          "pyqs": [
+            {
+              "paperLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pyqs/R20/3-1/OS/REG/REG%20OPERATING-SYSTEMS-JAN-2023.pdf",
+              "paperType": "Reg",
+              "paperYear": "Jan 2023"
+            },
+            {
+              "paperLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pyqs/R20/3-1/OS/SUP/SUP%20OPERATING-SYSTEMS-JULY-2023.pdf",
+              "paperType": "Sup",
+              "paperYear": "July 2023"
+            }
+          ],
+          "units": [
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/2-1/OPERATING%20SYSTEMS/OS%20-%20UNIT-1.pdf?t=2024-02-20T06%3A55%3A58.624Z",
+              "unitName": "Unit 1"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/2-1/OPERATING%20SYSTEMS/OS%20-%20UNIT-2.pdf",
+              "unitName": "Unit 2"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/2-1/OPERATING%20SYSTEMS/OS%20-%20UNIT-3.pdf",
+              "unitName": "Unit 3"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/2-1/OPERATING%20SYSTEMS/OS%20-%20UNIT-4.pdf",
+              "unitName": "Unit 4"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/2-1/OPERATING%20SYSTEMS/OS%20-%20UNIT-5.pdf",
+              "unitName": "Unit 5"
+            }
+          ],
+          "commonFor": "CAI,CSM,AID,CSD",
+          "subjectCode": "R2031422"
+        },
+        {
+          "name": "Software Engineering",
+          "pyqs": [
+            {
+              "paperLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pyqs/R20/3-1/SE/REG/REG%20SOFTWARE-ENGINEERING-JAN-2023.pdf",
+              "paperType": "Reg",
+              "paperYear": "Jan 2023"
+            },
+            {
+              "paperLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pyqs/R20/3-1/SE/SUP/SUP%20OPERATING-SYSTEMS-JULY-2023.pdf",
+              "paperType": "Sup",
+              "paperYear": "July 2023"
+            }
+          ],
+          "units": [
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/3-1/SOFTWARE%20ENGINEERING/SE%20-%20UNIT%201.PDF",
+              "unitName": "Unit 1"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/3-1/SOFTWARE%20ENGINEERING/SE%20-%20UNIT%202.PDF",
+              "unitName": "Unit 2"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/3-1/SOFTWARE%20ENGINEERING/SE%20-%20UNIT%203.PDF",
+              "unitName": "Unit 3"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/3-1/SOFTWARE%20ENGINEERING/SE%20-%20UNIT%204.PDF",
+              "unitName": "Unit 4"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/3-1/SOFTWARE%20ENGINEERING/SE%20-%20UNIT%205.PDF",
+              "unitName": "Unit 5"
+            }
+          ],
+          "commonFor": "CAI,CSM,AID,CSD,CSC",
+          "subjectCode": "R203142A"
+        },
+        {
+          "name": "Web Technologies",
+          "pyqs": [],
+          "units": [
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/3-1/WEB%20TECHNOLOGIES/WT%20UNIT-1.PDF",
+              "unitName": "Unit 1"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/3-1/WEB%20TECHNOLOGIES/WT%20UNIT-2.PDF",
+              "unitName": "Unit 2"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/3-1/WEB%20TECHNOLOGIES/WT%20UNIT-3.PDF",
+              "unitName": "Unit 3"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/3-1/WEB%20TECHNOLOGIES/WT%20UNIT-4.PDF",
+              "unitName": "Unit 4"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/3-1/WEB%20TECHNOLOGIES/WT%20UNIT-5.PDF",
+              "unitName": "Unit 5"
+            }
+          ],
+          "commonFor": "CSC",
+          "subjectCode": "R203147C"
+        }
+      ]
+    },
+    {
+      "semester": "3-2",
+      "subjects": [
+        {
+          "name": "Computer Networks",
+          "pyqs": [
+            {
+              "paperLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pyqs/R20/3-2/CN/REG/REG%20COMPUTER-NETWORKS-JAN-2023.pdf",
+              "paperType": "Reg",
+              "paperYear": "Jan 2023"
+            }
+          ],
+          "units": [
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/3-1/COMPUTER%20NETWORKS/CN%20UNIT-1.PDF",
+              "unitName": "Unit 1"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/3-1/COMPUTER%20NETWORKS/CN%20UNIT-2.PDF",
+              "unitName": "Unit 2"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/3-1/COMPUTER%20NETWORKS/CN%20UNIT-3.PDF",
+              "unitName": "Unit 3"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/3-1/COMPUTER%20NETWORKS/CN%20UNIT-4.PDF",
+              "unitName": "Unit 4"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/3-1/COMPUTER%20NETWORKS/CN%20UNIT-5.PDF",
+              "unitName": "Unit 5"
+            }
+          ],
+          "commonFor": "CAI,CSM,AID,CSD",
+          "subjectCode": "R2032421"
+        },
+        {
+          "name": "Design and Analysis of Algorithm",
+          "pyqs": [
+            {
+              "paperLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pyqs/R20/3-2/DAA/SUP/SUP%20DESIGN-AND-ANALYSIS-OF-ALGORITHMS-JULY-2023.pdf",
+              "paperType": "Sup",
+              "paperYear": "July 2023"
+            }
+          ],
+          "units": [
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/3-1/DAA/DAA%20-UNIT-1.pdf",
+              "unitName": "Unit 1"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/3-1/DAA/DAA%20-UNIT-2.pdf",
+              "unitName": "Unit 2"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/3-1/DAA/DAA%20-UNIT-3.pdf",
+              "unitName": "Unit 3"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/3-1/DAA/DAA%20-UNIT-4.pdf",
+              "unitName": "Unit 4"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/3-1/DAA/DAA%20-UNIT-5.pdf",
+              "unitName": "Unit 5"
+            }
+          ],
+          "commonFor": "CAI,CSM,AID,CSD",
+          "subjectCode": "R2032423"
+        },
+        {
+          "name": "Machine Learning",
+          "pyqs": [],
+          "units": [
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/3-2/MACHINE%20LEARNING/ML%20R20%20UNIT-1%20CS.pdf",
+              "unitName": "Unit 1"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/3-2/MACHINE%20LEARNING/ML%20R20%20UNIT-2%20CS.pdf",
+              "unitName": "Unit 2"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/3-2/MACHINE%20LEARNING/ML%20R20%20UNIT-3%20CS.pdf",
+              "unitName": "Unit 3"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/3-2/MACHINE%20LEARNING/ML%20R20%20UNIT-4%20CS.pdf",
+              "unitName": "Unit 4"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/3-2/MACHINE%20LEARNING/ML%20R20%20UNIT-5%20CS.pdf",
+              "unitName": "Unit 5"
+            }
+          ],
+          "commonFor": "CSC",
+          "subjectCode": "R2031423"
+        },
+        {
+          "name": "Big Data Analytics",
+          "pyqs": [],
+          "units": [
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/3-2/BIG%20DATA%20ANALYTICS/BIG%20DATA%20UNIT%20-%201.pdf",
+              "unitName": "Unit 1"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/3-2/BIG%20DATA%20ANALYTICS/BIG%20DATA%20UNIT%20-%202.pdf",
+              "unitName": "Unit 2"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/3-2/BIG%20DATA%20ANALYTICS/BIG%20DATA%20UNIT%20-%203.pdf",
+              "unitName": "Unit 3"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/3-2/BIG%20DATA%20ANALYTICS/BIG%20DATA%20UNIT%20-%204.pdf",
+              "unitName": "Unit 4"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/3-2/BIG%20DATA%20ANALYTICS/BIG%20DATA%20UNIT%20-%205.pdf",
+              "unitName": "Unit 5"
+            }
+          ],
+          "commonFor": "AID,CSD",
+          "subjectCode": "R2032121"
+        },
+        {
+          "name": "Cryptography & Network Security",
+          "pyqs": [
+            {
+              "paperLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pyqs/R20/3-2/CNS/REG/REG%20CRYPTOGRAPHY-AND-NETWORK-SECURITY-JULY-2023.pdf",
+              "paperType": "Reg",
+              "paperYear": "July 2023"
+            }
+          ],
+          "units": [
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/3-2/CRYPTOGRAPHY/CNS%20UNIT-1.pdf",
+              "unitName": "Unit 1"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/3-2/CRYPTOGRAPHY/CNS%20UNIT-2.pdf",
+              "unitName": "Unit 2"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/3-2/CRYPTOGRAPHY/CNS%20UNIT-3.pdf",
+              "unitName": "Unit 3"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/3-2/CRYPTOGRAPHY/CNS%20UNIT-4.pdf",
+              "unitName": "Unit 4"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/3-2/CRYPTOGRAPHY/CNS%20UNIT-5.pdf",
+              "unitName": "Unit 5"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/3-2/CRYPTOGRAPHY/CNS%20UNIT-6.pdf",
+              "unitName": "Unit 6"
+            }
+          ],
+          "commonFor": "CSC",
+          "subjectCode": "R2032461"
+        },
+        {
+          "name": "Deep Learning",
+          "pyqs": [
+            {
+              "paperLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pyqs/R20/3-2/DL/REG/REG%20DEEP-LEARNING-JULY-2023.pdf",
+              "paperType": "Reg",
+              "paperYear": "July 2023"
+            }
+          ],
+          "units": [
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/3-2/DEEP%20LEARNING/Deep%20Learning%20Unit%20-%201.pdf",
+              "unitName": "Unit 1"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/3-2/DEEP%20LEARNING/Deep%20Learning%20Unit%20-%202.pdf",
+              "unitName": "Unit 2"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/3-2/DEEP%20LEARNING/Deep%20Learning%20Unit%20-%203.pdf",
+              "unitName": "Unit 3"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/3-2/DEEP%20LEARNING/Deep%20Learning%20Unit%20-%204.pdf",
+              "unitName": "Unit 4"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/3-2/DEEP%20LEARNING/Deep%20Learning%20Unit%20-%205.pdf",
+              "unitName": "Unit 5"
+            }
+          ],
+          "commonFor": "CAI,CSM",
+          "subjectCode": "R2032422"
+        },
+        {
+          "name": "Mean Stack Development",
+          "pyqs": [],
+          "units": [
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/3-2/MEAN%20STACK%20/MEAN%20UNIT%20-1.pdf",
+              "unitName": "Unit 1"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/3-2/MEAN%20STACK%20/MEAN%20UNIT%20-2.pdf",
+              "unitName": "Unit 2"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/3-2/MEAN%20STACK%20/MEAN%20UNIT%20-3.pdf",
+              "unitName": "Unit 3"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/3-2/MEAN%20STACK%20/MEAN%20UNIT%20-4.pdf",
+              "unitName": "Unit 4"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/3-2/MEAN%20STACK%20/MEAN%20UNIT%20-5.pdf",
+              "unitName": "Unit 5"
+            }
+          ],
+          "commonFor": "CAI,CSM,AID,CSD",
+          "subjectCode": "R203205E"
+        },
+        {
+          "name": "Software Project Management",
+          "pyqs": [
+            {
+              "paperLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pyqs/R20/3-2/SPM/SUP/SUP%20SOFTWARE-PROJECT-MANAGEMENT-JULY-2023.pdf",
+              "paperType": "Sup",
+              "paperYear": "July 2023"
+            }
+          ],
+          "units": [
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/3-2/SPM/SPM%20UNIT%20-%201.pdf",
+              "unitName": "Unit 1"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/3-2/SPM/SPM%20UNIT%20-%202.pdf",
+              "unitName": "Unit 2"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/3-2/SPM/SPM%20UNIT%20-%203.pdf",
+              "unitName": "Unit 3"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/3-2/SPM/SPM%20UNIT%20-%204.pdf",
+              "unitName": "Unit 4"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/3-2/SPM/SPM%20UNIT%20-%205.pdf",
+              "unitName": "Unit 5"
+            }
+          ],
+          "commonFor": "CAI,CSM,AID,CSD",
+          "subjectCode": "R203242A"
+        },
+        {
+          "name": "Web Services",
+          "pyqs": [],
+          "units": [
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/3-2/WEB%20SERVICES/WEB%20SERVICES%20UNIT-2.pdf",
+              "unitName": "Unit 2"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/3-2/WEB%20SERVICES/WEB%20SERVICES%20UNIT-3.pdf",
+              "unitName": "Unit 3"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/3-2/WEB%20SERVICES/WEB%20SERVICES%20UNIT-4.pdf",
+              "unitName": "Unit 4"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/3-2/WEB%20SERVICES/WEB%20SERVICES%20UNIT-5.pdf",
+              "unitName": "Unit 5"
+            }
+          ],
+          "commonFor": "CSC",
+          "subjectCode": "R203246B"
+        },
+        {
+          "name": "Network Programming",
+          "pyqs": [],
+          "units": [
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/3-2/NP/NETWORK%20PROGRAMMING%20UNIT%20-%201.pdf",
+              "unitName": "Unit 1"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/3-2/NP/NETWORK%20PROGRAMMING%20UNIT%20-%202.pdf",
+              "unitName": "Unit 2"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/3-2/NP/NETWORK%20PROGRAMMING%20UNIT%20-%203.pdf",
+              "unitName": "Unit 3"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/3-2/NP/NETWORK%20PROGRAMMING%20UNIT%20-%204.pdf",
+              "unitName": "Unit 4"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/3-2/NP/NETWORK%20PROGRAMMING%20UNIT%20-%205.pdf",
+              "unitName": "Unit 5"
+            }
+          ],
+          "commonFor": "CAI,CSM,AID,CSD",
+          "subjectCode": "R203205D"
+        },
+        {
+          "name": "Intro to Cyber Security",
+          "pyqs": [],
+          "units": [
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/3-2/INTRO%20CYBERSECURITY/INTRO%20TO%20CYBER%20UNIT%20-%201.pdf",
+              "unitName": "Unit 1"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/3-2/INTRO%20CYBERSECURITY/INTRO%20TO%20CYBER%20UNIT%20-%202.pdf",
+              "unitName": "Unit 2"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/3-2/INTRO%20CYBERSECURITY/INTRO%20TO%20CYBER%20UNIT%20-%203.pdf",
+              "unitName": "Unit 3"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/3-2/INTRO%20CYBERSECURITY/INTRO%20TO%20CYBER%20UNIT%20-%204.pdf",
+              "unitName": "Unit 4"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/3-2/INTRO%20CYBERSECURITY/INTRO%20TO%20CYBER%20UNIT%20-%205.pdf",
+              "unitName": "Unit 5"
+            }
+          ],
+          "commonFor": "CSC",
+          "subjectCode": "R2032463"
+        }
+      ]
+    },
+    {
+      "semester": "4-1",
+      "subjects": [
+        {
+          "name": "AI ChatBots",
+          "pyqs": [],
+          "units": [
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/4-1/AI%20CHAT%20BOTS/AI%20CHAT%20BOT%20UNIT%20-1.pdf",
+              "unitName": "Unit 1"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/4-1/AI%20CHAT%20BOTS/AI%20CHAT%20BOT%20UNIT%20-2.pdf",
+              "unitName": "Unit 2"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/4-1/AI%20CHAT%20BOTS/AI%20CHAT%20BOT%20UNIT%20-3.pdf",
+              "unitName": "Unit 3"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/4-1/AI%20CHAT%20BOTS/AI%20CHAT%20BOT%20UNIT%20-4.pdf",
+              "unitName": "Unit 4"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/4-1/AI%20CHAT%20BOTS/AI%20CHAT%20BOT%20UNIT%20-5.pdf",
+              "unitName": "Unit 5"
+            }
+          ],
+          "commonFor": "CAI,CSM,AID,CSD",
+          "subjectCode": "R204142I"
+        },
+        {
+          "name": "Block Chain Development ",
+          "pyqs": [],
+          "units": [
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/4-1/BLOCK%20CHAIN%20/BLOCK%20CHAIN%20UNIT-1.pdf",
+              "unitName": "Unit 1"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/4-1/BLOCK%20CHAIN%20/BLOCK%20CHAIN%20UNIT-2.pdf",
+              "unitName": "Unit 2"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/4-1/BLOCK%20CHAIN%20/BLOCK%20CHAIN%20UNIT-3.pdf",
+              "unitName": "Unit 3"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/4-1/BLOCK%20CHAIN%20/BLOCK%20CHAIN%20UNIT-4.pdf",
+              "unitName": "Unit 4"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/4-1/BLOCK%20CHAIN%20/BLOCK%20CHAIN%20UNIT-5.pdf",
+              "unitName": "Unit 5"
+            }
+          ],
+          "commonFor": "CAI,CSM,AID,CSD",
+          "subjectCode": "R204105I"
+        },
+        {
+          "name": "Cloud Computing",
+          "pyqs": [],
+          "units": [
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/4-1/CLOUD%20COMPUTING/CC%20UNIT%20-1.pdf",
+              "unitName": "Unit 1"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/4-1/CLOUD%20COMPUTING/CC%20UNIT%20-2.pdf",
+              "unitName": "Unit 2"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/4-1/CLOUD%20COMPUTING/CC%20UNIT%20-3.pdf",
+              "unitName": "Unit 3"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/4-1/CLOUD%20COMPUTING/CC%20UNIT%20-4.pdf",
+              "unitName": "Unit 4"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/4-1/CLOUD%20COMPUTING/CC%20UNIT%20-5.pdf",
+              "unitName": "Unit 5"
+            }
+          ],
+          "commonFor": "CAI,CSM,AID,CSD",
+          "subjectCode": "R204105A"
+        },
+        {
+          "name": "Cloud Computing for Cyber",
+          "pyqs": [],
+          "units": [
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/4-1/CC%20FOR%20CS/UNIT-1%20Cloud%20Computing.pdf",
+              "unitName": "Unit 1"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/4-1/CC%20FOR%20CS/UNIT-2%20Cloud%20Computing.pdf",
+              "unitName": "Unit 2"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/4-1/CC%20FOR%20CS/UNIT-3%20Cloud%20Computing.pdf",
+              "unitName": "Unit 3"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/4-1/CC%20FOR%20CS/UNIT-4%20Cloud%20Computing.pdf",
+              "unitName": "Unit 4"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/4-1/CC%20FOR%20CS/UNIT-5%20Cloud%20Computing.pdf",
+              "unitName": "Unit 5"
+            }
+          ],
+          "commonFor": "CSC",
+          "subjectCode": "R204146G"
+        },
+        {
+          "name": "Ethical Hacking",
+          "pyqs": [],
+          "units": [
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/4-1/ETHICAL%20HACKING/ETHICAL%20HACKING%20UNIT%20-%201.pdf",
+              "unitName": "Unit 1"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/4-1/ETHICAL%20HACKING/ETHICAL%20HACKING%20UNIT%20-%202.pdf",
+              "unitName": "Unit 2"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/4-1/ETHICAL%20HACKING/ETHICAL%20HACKING%20UNIT%20-%203.pdf",
+              "unitName": "Unit 3"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/4-1/ETHICAL%20HACKING/ETHICAL%20HACKING%20UNIT%20-%204.pdf",
+              "unitName": "Unit 4"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/4-1/ETHICAL%20HACKING/ETHICAL%20HACKING%20UNIT%20-%205.pdf",
+              "unitName": "Unit 5"
+            }
+          ],
+          "commonFor": "CSC",
+          "subjectCode": "R204146M"
+        },
+        {
+          "name": "Fundamentals of Microprocessors and Microcontrollers",
+          "pyqs": [],
+          "units": [
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/4-1/FMPMC/FMPMC%20UNIT%20-1.pdf",
+              "unitName": "Unit 1"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/4-1/FMPMC/FMPMC%20UNIT%20-2.pdf",
+              "unitName": "Unit 2"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/4-1/FMPMC/FMPMC%20UNIT%20-3.pdf",
+              "unitName": "Unit 3"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/4-1/FMPMC/FMPMC%20UNIT%20-4.pdf",
+              "unitName": "Unit 4"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/4-1/FMPMC/FMPMC%20UNIT%20-5.pdf",
+              "unitName": "Unit 5"
+            }
+          ],
+          "commonFor": "CAI,CSM,AID,CSD,CSC",
+          "subjectCode": "R204104O"
+        },
+        {
+          "name": "Mobile and Wireless Security",
+          "pyqs": [],
+          "units": [
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/4-1/MOBILE%20AND%20WIRELESS%20SECURITY/UNIT-1%20Mobile%20and%20Wireless%20Security%20.pdf",
+              "unitName": "Unit 1"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/4-1/MOBILE%20AND%20WIRELESS%20SECURITY/UNIT-2%20Mobile%20and%20Wireless%20Security.pdf",
+              "unitName": "Unit 2"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/4-1/MOBILE%20AND%20WIRELESS%20SECURITY/UNIT-3%20Mobile%20and%20Wireless%20Security%20.pdf",
+              "unitName": "Unit 3"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/4-1/MOBILE%20AND%20WIRELESS%20SECURITY/UNIT-4%20Mobile%20and%20Wireless%20Security%20.pdf",
+              "unitName": "Unit 4"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/4-1/MOBILE%20AND%20WIRELESS%20SECURITY/UNIT-5%20Mobile%20and%20Wireless%20Security.pdf",
+              "unitName": "Unit 5"
+            }
+          ],
+          "commonFor": "CSC",
+          "subjectCode": "R204146E"
+        },
+        {
+          "name": "Universal Human Values",
+          "pyqs": [],
+          "units": [
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/4-1/UNIVERSAL%20HUMAN%20VALUES/UNIVERSAL%20HUMAN%20VALUES%20UNIT%20-1.pdf",
+              "unitName": "Unit 1"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/4-1/UNIVERSAL%20HUMAN%20VALUES/UNIVERSAL%20HUMAN%20VALUES%20UNIT%20-2.pdf",
+              "unitName": "Unit 2"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/4-1/UNIVERSAL%20HUMAN%20VALUES/UNIVERSAL%20HUMAN%20VALUES%20UNIT%20-3.pdf",
+              "unitName": "Unit 3"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/4-1/UNIVERSAL%20HUMAN%20VALUES/UNIVERSAL%20HUMAN%20VALUES%20UNIT%20-4.pdf",
+              "unitName": "Unit 4"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/4-1/UNIVERSAL%20HUMAN%20VALUES/UNIVERSAL%20HUMAN%20VALUES%20UNIT%20-5.pdf",
+              "unitName": "Unit 5"
+            }
+          ],
+          "commonFor": "CAI,CSM,AID,CSD,CSC",
+          "subjectCode": "R204146R"
+        },
+        {
+          "name": "Principles of communications",
+          "pyqs": [],
+          "units": [
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/3-2/SPM/SPM%20UNIT%20-%201.pdf",
+              "unitName": "Unit 1"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/3-2/SPM/SPM%20UNIT%20-%202.pdf",
+              "unitName": "Unit 2"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/3-2/SPM/SPM%20UNIT%20-%203.pdf",
+              "unitName": "Unit 3"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/3-2/SPM/SPM%20UNIT%20-%204.pdf",
+              "unitName": "Unit 4"
+            },
+            {
+              "pdfLink": "https://jauqpatdbvxkelwtnyoy.supabase.co/storage/v1/object/public/pdf/R20/3-2/SPM/SPM%20UNIT%20-%205.pdf",
+              "unitName": "Unit 5"
+            }
+          ],
+          "commonFor": "CAI,CSM,AID,CSD,CSC",
+          "subjectCode": "R203242A"
+        }
+      ]
+    }
+  ],
+  "regulation": "R20",
+  "university": "JNTUK"
+}

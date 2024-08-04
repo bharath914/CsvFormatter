@@ -1,0 +1,628 @@
+{
+  "college": "KIET",
+  "semesters": [
+    {
+      "semester": "1-1",
+      "subjects": [
+        {
+          "name": "Mathematics 1",
+          "pyqs": [
+            {
+              "paperLink": "https://drive.google.com/file/d/1kF6djbgrs0C7xF2sBNnEODVEPq8e9w6C/view?usp=drive_link",
+              "paperType": "Reg",
+              "paperYear": "April 2022"
+            },
+            {
+              "paperLink": "https://drive.google.com/file/d/1kjz5YbIey-JEtT3iElV8J2bbdHKosGB-/view?usp=drive_link",
+              "paperType": "Reg",
+              "paperYear": "Feb 2022"
+            },
+            {
+              "paperLink": "https://drive.google.com/file/d/1EOKv-DSXyhdgu66SHeLSsTsYk3a6VNw8/view?usp=drive_link",
+              "paperType": "Sup",
+              "paperYear": "Aug 2022"
+            },
+            {
+              "paperLink": "https://drive.google.com/file/d/1M_Nze1bx4Zbpy3q4J4z63zVRndgWmZxh/view?usp=drive_link",
+              "paperType": "Sup",
+              "paperYear": "July 2023"
+            }
+          ],
+          "units": [
+            {
+              "pdfLink": "https://drive.google.com/file/d/1j_F2jAx1G9BQ3BZnE49T_Es0-GqsiLSG/view?usp=drive_link",
+              "unitName": "Unit 1"
+            },
+            {
+              "pdfLink": "https://drive.google.com/file/d/1juCDwXP6OhG1Z2akVaGOGHd_593tG2pc/view?usp=drive_link",
+              "unitName": "Unit 2"
+            },
+            {
+              "pdfLink": "https://drive.google.com/file/d/1tfhrWIaM_7ut-zHJ00SpMcWAadXWFwj-/view?usp=drive_link",
+              "unitName": "Unit 3"
+            },
+            {
+              "pdfLink": "https://drive.google.com/file/d/1szDuldyvVHSyAg6cYHnN9yUZwFfYBbwj/view?usp=drive_link",
+              "unitName": "Unit 4"
+            },
+            {
+              "pdfLink": "https://drive.google.com/file/d/1zVA8xqza6bpwxglZokPYkJBtMaUA6gNs/view?usp=drive_link",
+              "unitName": "Unit 5"
+            }
+          ],
+          "commonFor": "CAI,CSC,CSM,AID,CSD",
+          "subjectCode": "R201101"
+        },
+        {
+          "name": "English",
+          "pyqs": [
+            {
+              "paperLink": "https://drive.google.com/file/d/1je3ZpGQboAmrBcSwPEbx-dYY5Q2HXs0Z/view?usp=drive_link",
+              "paperType": "Reg",
+              "paperYear": "April 2022"
+            },
+            {
+              "paperLink": "https://drive.google.com/file/d/15JoU-7HA8uydH1-RrhrBTnQj-xECf3kr/view?usp=drive_link",
+              "paperType": "Reg",
+              "paperYear": "Feb 2023"
+            },
+            {
+              "paperLink": "https://drive.google.com/file/d/1pMSLFNv1nKuEPsUXXffhv668-lFjV_QV/view?usp=drive_link",
+              "paperType": "Sup",
+              "paperYear": "Aug 2022"
+            },
+            {
+              "paperLink": "https://drive.google.com/file/d/18yrYZ0rshMzHvhRPT2ry0ECyz_WnpcWE/view?usp=drive_link",
+              "paperType": "Sup",
+              "paperYear": "July 2023"
+            }
+          ],
+          "units": [
+            {
+              "pdfLink": "https://drive.google.com/file/d/1YHeBx8PxrbbvjerBiwHU8wt6N5opx2CO/view?usp=sharing",
+              "unitName": "All Unit R20"
+            }
+          ],
+          "commonFor": "CAI,CSC,CSM,AID,CSD",
+          "subjectCode": "R201102"
+        },
+        {
+          "name": "C Programming",
+          "pyqs": [
+            {
+              "paperLink": "https://drive.google.com/file/d/1_qZ9rYz2AzFl8uz5d2sIeb3AV54g0Xf9/view?usp=drive_link",
+              "paperType": "Reg",
+              "paperYear": "Feb 2023"
+            },
+            {
+              "paperLink": "https://drive.google.com/file/d/1MohKxEEB9wgxHNBEk6Vonqx7pgzym-zh/view?usp=drive_link",
+              "paperType": "Sup",
+              "paperYear": "Aug 2022"
+            }
+          ],
+          "units": [
+            {
+              "pdfLink": "https://drive.google.com/file/d/1Wbrsi6zLKiECODgCP6lt2EBijHr7Pf6Y/view?usp=drive_link",
+              "unitName": "Unit 1"
+            },
+            {
+              "pdfLink": "https://drive.google.com/file/d/1dVM4CdXfXait0DJcN_aadgQYzqSezhUf/view?usp=drive_link",
+              "unitName": "Unit 2"
+            },
+            {
+              "pdfLink": "https://drive.google.com/file/d/1mvP43N9cPzNBarOo3r6hU2-JkiUjGeb7/view?usp=drive_link",
+              "unitName": "Unit 3"
+            },
+            {
+              "pdfLink": "https://drive.google.com/file/d/1NMyeCMvmpokN5YirYEK46sHueBoFuJbG/view?usp=drive_link",
+              "unitName": "Unit 4"
+            },
+            {
+              "pdfLink": "https://drive.google.com/file/d/1O5rnacV1MAnHp-Cjn6TRULOPAXaibr30/view?usp=drive_link",
+              "unitName": "Unit 5"
+            }
+          ],
+          "commonFor": "CAI,CSC,CSM,AID,CSD",
+          "subjectCode": "R201110"
+        },
+        {
+          "name": "Applied Physics",
+          "pyqs": [
+            {
+              "paperLink": "https://drive.google.com/file/d/11_Jgn9UngU6cZiJyGEoOHdZkfVpLWlrZ/view?usp=drive_link",
+              "paperType": "Reg",
+              "paperYear": "April 2022"
+            },
+            {
+              "paperLink": "https://drive.google.com/file/d/12SxzvAVqOy0m4zcUDsJbCGRoCfUyjeqh/view?usp=drive_link",
+              "paperType": "Reg",
+              "paperYear": "Feb 2023"
+            },
+            {
+              "paperLink": "https://drive.google.com/file/d/1Mjr_kaQdP2t_YRk3uMpPgkbKBl7Ruo4r/view?usp=drive_link",
+              "paperType": "Sup",
+              "paperYear": "Aug 2022"
+            },
+            {
+              "paperLink": "https://drive.google.com/file/d/16d6m7asvrsYTIG_J31LqSl8k5A-XaNXh/view?usp=drive_link",
+              "paperType": "Sup",
+              "paperYear": "July 2023"
+            }
+          ],
+          "units": [
+            {
+              "pdfLink": "https://drive.google.com/file/d/1iTqdusNOTsgViWU1T3ScIFN5YRZ7frWT/view?usp=sharing",
+              "unitName": "Unit 1"
+            },
+            {
+              "pdfLink": "https://drive.google.com/file/d/1R9KrmwgJID2HEnaGIBWe9TymmmR3Cvcj/view?usp=sharing",
+              "unitName": "Unit 2"
+            },
+            {
+              "pdfLink": "https://drive.google.com/file/d/17vZAEteH9UwzdQdxjzbyClqACNwXqJTi/view?usp=sharing",
+              "unitName": "Unit 3"
+            },
+            {
+              "pdfLink": "https://drive.google.com/file/d/1CpmoBw2ZRkBwHG-KAORTWYO9jggrnADz/view?usp=sharing",
+              "unitName": "Unit 4"
+            },
+            {
+              "pdfLink": "https://drive.google.com/file/d/1vp2YEe7vZRN0hfUL7g37M_w_yAb48AcQ/view?usp=sharing",
+              "unitName": "Unit 5"
+            }
+          ],
+          "commonFor": "CSC",
+          "subjectCode": "R201117"
+        },
+        {
+          "name": "Applied Chemistry",
+          "pyqs": [
+            {
+              "paperLink": "https://drive.google.com/open?id=1WjmCDqJePwbCC-SGIPR0dZ4N9bXdRfPQ&usp=drive_copy",
+              "paperType": "Reg",
+              "paperYear": "Feb 2023"
+            },
+            {
+              "paperLink": "https://drive.google.com/open?id=1yJgvmmDsRACGOG1ol7zbgyywNsv6sKw7&usp=drive_copy",
+              "paperType": "Reg",
+              "paperYear": "Nov 2022"
+            },
+            {
+              "paperLink": "https://drive.google.com/open?id=19ESMTKaMLTSFxsrWul_ov68urNFzkCYv&usp=drive_copy",
+              "paperType": "Sup",
+              "paperYear": "Aug 2022"
+            },
+            {
+              "paperLink": "https://drive.google.com/open?id=1HlrD4T6yfm3-a3jMXYMD2frBlnCkD0d6&usp=drive_copy",
+              "paperType": "Sup",
+              "paperYear": "Aug 2022"
+            }
+          ],
+          "units": [
+            {
+              "pdfLink": "https://drive.google.com/open?id=1bTLoenDlO0pRLAnFnnbtw78F1eabiDbl&usp=drive_copy",
+              "unitName": "Unit 1"
+            },
+            {
+              "pdfLink": "https://drive.google.com/open?id=10hXV1k085MOUzWSb862HBoisBw1KAfp_&usp=drive_copy",
+              "unitName": "Unit 2"
+            },
+            {
+              "pdfLink": "https://drive.google.com/open?id=1Kq9XrCIdkmWaDBvEB1NhICZyuAQ7ge10&usp=drive_copy",
+              "unitName": "Unit 3"
+            },
+            {
+              "pdfLink": "https://drive.google.com/open?id=1WyD_qd97Ce4Ppc-y3LppXzNnT9Sl12CN&usp=drive_copy",
+              "unitName": "Unit 4"
+            },
+            {
+              "pdfLink": "https://drive.google.com/open?id=16AC0lZdRmL9j4tqggCoZzWnIwW9kwdwk&usp=drive_copy",
+              "unitName": "Unit 5"
+            }
+          ],
+          "commonFor": "CAI,CSM,AID,CSD",
+          "subjectCode": "R201115"
+        }
+      ]
+    },
+    {
+      "semester": "1-2",
+      "subjects": [
+        {
+          "name": "Mathematics 2",
+          "pyqs": [
+            {
+              "paperLink": "https://drive.google.com/open?id=1BTwNtZoq9D3BElz94zAHzyLllDfRHa33&usp=drive_copy",
+              "paperType": "Reg",
+              "paperYear": "Aug 2022"
+            },
+            {
+              "paperLink": "https://drive.google.com/open?id=12cBquU9PGrFgOYNaoksmIs0PF-cTHw-A&usp=drive_copy",
+              "paperType": "Sup",
+              "paperYear": "Sep 2021"
+            },
+            {
+              "paperLink": "https://drive.google.com/open?id=1fm9ihWi67s14XfaPmgo_mObvnQl73mkX&usp=drive_copy",
+              "paperType": "Sup",
+              "paperYear": "Mar 2022"
+            },
+            {
+              "paperLink": "https://drive.google.com/open?id=1xRWwI89P0VbwtJ2D98JtY3IMVsnTxbh4&usp=drive_copy",
+              "paperType": "Sup",
+              "paperYear": "Jan 2023"
+            }
+          ],
+          "units": [
+            {
+              "pdfLink": "https://drive.google.com/open?id=1p9XL0kEbS6H4MyPXsNYmNF4GQWeincPB&usp=drive_copy",
+              "unitName": "Unit 1"
+            },
+            {
+              "pdfLink": "https://drive.google.com/open?id=1inktCn7Q3qnkOqFbxHN27vRc7Fo-6BMr&usp=drive_copy",
+              "unitName": "Unit 2"
+            },
+            {
+              "pdfLink": "https://drive.google.com/open?id=1N2egTVZVHIW_-USHYP8f7QgDduV5REVA&usp=drive_copy",
+              "unitName": "Unit 3"
+            },
+            {
+              "pdfLink": "https://drive.google.com/open?id=1QwGPNo43o93v3L6D5-rDLt5yxH0Z5Cuc&usp=drive_copy",
+              "unitName": "Unit 4"
+            },
+            {
+              "pdfLink": "https://drive.google.com/open?id=1j_ywpLCa744QgbGdUlOFGUWcMf70gh4Q&usp=drive_copy",
+              "unitName": "Unit 5"
+            }
+          ],
+          "commonFor": "CAI,CSC,CSM,AID,CSD",
+          "subjectCode": "R201201"
+        },
+        {
+          "name": "Data Structures",
+          "pyqs": [
+            {
+              "paperLink": "https://drive.google.com/open?id=1m7qWNK3pk4Rmwu5WVrQcxQWyn4_6KvnN&usp=drive_copy",
+              "paperType": "Reg",
+              "paperYear": "Aug 2022"
+            },
+            {
+              "paperLink": "https://drive.google.com/open?id=1hSqFBAd8B3GRp68xIbttEDG-1gJXt51s&usp=drive_copy",
+              "paperType": "Reg",
+              "paperYear": "July 2023"
+            },
+            {
+              "paperLink": "https://drive.google.com/open?id=15h84JJy68XcEacMkeWpOLCPiCdSJMrU-&usp=drive_copy",
+              "paperType": "Sup",
+              "paperYear": "Jan 2023"
+            },
+            {
+              "paperLink": "https://drive.google.com/open?id=1tjv6y3YgbVn6IdjiWEN_9Vsgk_dHG13r&usp=drive_copy",
+              "paperType": "Sup",
+              "paperYear": "Mar 2022"
+            }
+          ],
+          "units": [
+            {
+              "pdfLink": "https://drive.google.com/open?id=1_ccMcNH9Zgw0538F-yYMDsIljPYRbXq0&usp=drive_copy",
+              "unitName": "Unit 1"
+            },
+            {
+              "pdfLink": "https://drive.google.com/open?id=14yFC9nMUSypLqCQZGTxdEPikWQI7ZCDf&usp=drive_copy",
+              "unitName": "Unit 2"
+            },
+            {
+              "pdfLink": "https://drive.google.com/open?id=1N7G6QfYOV9HyqscqHCmjUy6WGvK1U_4i&usp=drive_copy",
+              "unitName": "Unit 3"
+            },
+            {
+              "pdfLink": "https://drive.google.com/open?id=1P90W5Kc86sx_4cQAFAW_yoto9K-9flJj&usp=drive_copy",
+              "unitName": "Unit 4"
+            },
+            {
+              "pdfLink": "https://drive.google.com/open?id=1sdODHJm6Gh8X1ob-t3RXi1lJeoI-P-hW&usp=drive_copy",
+              "unitName": "Unit 5"
+            }
+          ],
+          "commonFor": "CAI,CSM,AID,CSD",
+          "subjectCode": "R201218"
+        },
+        {
+
+          "name": "Applied Chemistry",
+          "pyqs": [
+            {
+              "paperLink": "https://drive.google.com/open?id=1WjmCDqJePwbCC-SGIPR0dZ4N9bXdRfPQ&usp=drive_copy",
+              "paperType": "Reg",
+              "paperYear": "Feb 2023"
+            },
+            {
+              "paperLink": "https://drive.google.com/open?id=1yJgvmmDsRACGOG1ol7zbgyywNsv6sKw7&usp=drive_copy",
+              "paperType": "Reg",
+              "paperYear": "Nov 2022"
+            },
+            {
+              "paperLink": "https://drive.google.com/open?id=19ESMTKaMLTSFxsrWul_ov68urNFzkCYv&usp=drive_copy",
+              "paperType": "Sup",
+              "paperYear": "Aug 2022"
+            },
+            {
+              "paperLink": "https://drive.google.com/open?id=1HlrD4T6yfm3-a3jMXYMD2frBlnCkD0d6&usp=drive_copy",
+              "paperType": "Sup",
+              "paperYear": "Aug 2022"
+            }
+          ],
+          "units": [
+            {
+              "pdfLink": "https://drive.google.com/open?id=1bTLoenDlO0pRLAnFnnbtw78F1eabiDbl&usp=drive_copy",
+              "unitName": "Unit 1"
+            },
+            {
+              "pdfLink": "https://drive.google.com/open?id=10hXV1k085MOUzWSb862HBoisBw1KAfp_&usp=drive_copy",
+              "unitName": "Unit 2"
+            },
+            {
+              "pdfLink": "https://drive.google.com/open?id=1Kq9XrCIdkmWaDBvEB1NhICZyuAQ7ge10&usp=drive_copy",
+              "unitName": "Unit 3"
+            },
+            {
+              "pdfLink": "https://drive.google.com/open?id=1WyD_qd97Ce4Ppc-y3LppXzNnT9Sl12CN&usp=drive_copy",
+              "unitName": "Unit 4"
+            },
+            {
+              "pdfLink": "https://drive.google.com/open?id=16AC0lZdRmL9j4tqggCoZzWnIwW9kwdwk&usp=drive_copy",
+              "unitName": "Unit 5"
+            }
+          ],
+          "commonFor": "CSC",
+          "subjectCode": "R201115"
+        },
+        {
+          "name": "Digital Logic Design",
+          "pyqs": [
+            {
+              "paperLink": "https://drive.google.com/open?id=1ieRNobF0Vue-rPwsexWqoPFwxTWL2K33&usp=drive_copy",
+              "paperType": "Reg",
+              "paperYear": "Sep 2021"
+            },
+            {
+              "paperLink": "https://drive.google.com/open?id=1kfxKD3_oDn7K8elgZv9_dzSLMmkKzJcO&usp=drive_copy",
+              "paperType": "Reg",
+              "paperYear": "Aug 2022"
+            },
+            {
+              "paperLink": "https://drive.google.com/open?id=1lof76EFzXPx5Scdpt8JOfimyD0rgNc_W&usp=drive_copy",
+              "paperType": "Sup",
+              "paperYear": "Jan 2023"
+            },
+            {
+              "paperLink": "https://drive.google.com/open?id=1yePFxmqne4RNm_zuyyOgWEStJPOUbIhi&usp=drive_copy",
+              "paperType": "Sup",
+              "paperYear": "Mar 2022"
+            }
+          ],
+          "units": [
+            {
+              "pdfLink": "https://drive.google.com/open?id=1yePFxmqne4RNm_zuyyOgWEStJPOUbIhi&usp=drive_copy",
+              "unitName": "Unit 1"
+            },
+            {
+              "pdfLink": "https://drive.google.com/open?id=15Wvuq-QSVzIt5bqP56S0A8kn4Nim2HRK&usp=drive_copy",
+              "unitName": "Unit 2"
+            },
+            {
+              "pdfLink": "https://drive.google.com/open?id=1jY3tkROSfb31ZJ91a2jgAgXYfVJqbYaI&usp=drive_copy",
+              "unitName": "Unit 3"
+            },
+            {
+              "pdfLink": "https://drive.google.com/open?id=1n7T4Y7e07S0aH0ZY-OpddpsoqPIIQLUA&usp=drive_copy",
+              "unitName": "Unit 4"
+            },
+            {
+              "pdfLink": "https://drive.google.com/open?id=11AAla19SZSDnsBH9mFNiCWWg5Zvh2xWH&usp=drive_copy",
+              "unitName": "Unit 5"
+            }
+          ],
+          "commonFor": "CAI,CSC,CSM,AID,CSD",
+          "subjectCode": "R201221"
+        },
+        {
+          "name": "Applied Physics",
+          "pyqs": [
+            {
+              "paperLink": "https://drive.google.com/file/d/11_Jgn9UngU6cZiJyGEoOHdZkfVpLWlrZ/view?usp=drive_link",
+              "paperType": "Reg",
+              "paperYear": "April 2022"
+            },
+            {
+              "paperLink": "https://drive.google.com/file/d/12SxzvAVqOy0m4zcUDsJbCGRoCfUyjeqh/view?usp=drive_link",
+              "paperType": "Reg",
+              "paperYear": "Feb 2023"
+            },
+            {
+              "paperLink": "https://drive.google.com/file/d/1Mjr_kaQdP2t_YRk3uMpPgkbKBl7Ruo4r/view?usp=drive_link",
+              "paperType": "Sup",
+              "paperYear": "Aug 2022"
+            },
+            {
+              "paperLink": "https://drive.google.com/file/d/16d6m7asvrsYTIG_J31LqSl8k5A-XaNXh/view?usp=drive_link",
+              "paperType": "Sup",
+              "paperYear": "July 2023"
+            }
+          ],
+          "units": [
+            {
+              "pdfLink": "https://drive.google.com/file/d/1iTqdusNOTsgViWU1T3ScIFN5YRZ7frWT/view?usp=sharing",
+              "unitName": "Unit 1"
+            },
+            {
+              "pdfLink": "https://drive.google.com/file/d/1R9KrmwgJID2HEnaGIBWe9TymmmR3Cvcj/view?usp=sharing",
+              "unitName": "Unit 2"
+            },
+            {
+              "pdfLink": "https://drive.google.com/file/d/17vZAEteH9UwzdQdxjzbyClqACNwXqJTi/view?usp=sharing",
+              "unitName": "Unit 3"
+            },
+            {
+              "pdfLink": "https://drive.google.com/file/d/1CpmoBw2ZRkBwHG-KAORTWYO9jggrnADz/view?usp=sharing",
+              "unitName": "Unit 4"
+            },
+            {
+              "pdfLink": "https://drive.google.com/file/d/1vp2YEe7vZRN0hfUL7g37M_w_yAb48AcQ/view?usp=sharing",
+              "unitName": "Unit 5"
+            }
+          ],
+          "commonFor": "CAI,CSM,CSD,AID",
+          "subjectCode": "R201117"
+        },
+        {
+          "name": "Basic Electrical Engineering",
+          "pyqs": [
+            {
+              "paperLink": "https://drive.google.com/open?id=1nDI1ep-5sN65cTSd6Uu-zpGgmer4bk70&usp=drive_copy",
+              "paperType": "Reg",
+              "paperYear": "July 2023"
+            },
+            {
+              "paperLink": "https://drive.google.com/open?id=1h3x04M1GbhFvUYADxOKHPQsBud7ohMTm&usp=drive_copy",
+              "paperType": "Reg",
+              "paperYear": "Aug 2022"
+            },
+            {
+              "paperLink": "https://drive.google.com/open?id=1H3v1avT1h0b5dnnjNdrAynd3CLgN_oOa&usp=drive_copy",
+              "paperType": "Sup",
+              "paperYear": "Jan 2023"
+            },
+            {
+              "paperLink": "https://drive.google.com/open?id=19pyJwFEiiJ-pI4rVBC3NwGLtHjWzBrMn&usp=drive_copy",
+              "paperType": "Sup",
+              "paperYear": "March 2022"
+            }
+          ],
+          "units": [
+            {
+              "pdfLink": "https://drive.google.com/open?id=1Wb8GVqTg5iAvq4pTeEOaQUti_RffKsL5&usp=drive_copy",
+              "unitName": "Unit 1"
+            },
+            {
+              "pdfLink": "https://drive.google.com/open?id=1o0bHDlssEqCSQgR1HTAVGhvSd-Zr7J3X&usp=drive_copy",
+              "unitName": "Unit 2"
+            },
+            {
+              "pdfLink": "https://drive.google.com/open?id=1ooif5Rklm-8w4UY82WolslH5ypQzn5IA&usp=drive_copy",
+              "unitName": "Unit 3"
+            },
+            {
+              "pdfLink": "https://drive.google.com/open?id=1ukMH__xzNTdXwtHf5f6NtigsHTrFRjEg&usp=drive_copy",
+              "unitName": "Unit 4"
+            },
+            {
+              "pdfLink": "https://drive.google.com/open?id=1T59CNY1Iae80-ct6YOqNps-G2Dqp2ms7&usp=drive_copy",
+              "unitName": "Unit 5"
+            }
+          ],
+          "commonFor": "CSC",
+          "subjectCode": "R201221"
+        },
+        {
+          "name": "Python Programming",
+          "pyqs": [
+            {
+              "paperLink": "https://drive.google.com/open?id=1G8m2K_t3l-uGjQL7Vi4J4CpS3cq4UVIJ&usp=drive_copy",
+              "paperType": "Reg",
+              "paperYear": "Aug 2022"
+            },
+            {
+              "paperLink": "https://drive.google.com/open?id=1GPvOc5EeQ8-eZb0RQ7xcOKqeYGU-sex7&usp=drive_copy",
+              "paperType": "Reg",
+              "paperYear": "Jan 2023"
+            },  {
+              "paperLink": "https://drive.google.com/open?id=1vBiuRQdgWtvAeT6wnFuyWYuDVd_jy2Al&usp=drive_copy",
+              "paperType": "Sup",
+              "paperYear": "Sep 2021"
+            },
+            {
+              "paperLink": "https://drive.google.com/open?id=1c-N_Jvm_5PwGNG6oJukcORBY4cHCOq6o&usp=drive_copyy",
+              "paperType": "Sup",
+              "paperYear": "Jul 2023"
+            },
+            {
+              "paperLink": "https://drive.google.com/open?id=1ctX9KE25GXJl7EbFZaywkLaff6XRQOPk&usp=drive_copy",
+              "paperType": "Sup",
+              "paperYear": "March 2022"
+            }
+          ],
+          "units": [
+            {
+              "pdfLink": "https://drive.google.com/open?id=1GQ_jh1SZipx3ldNWKgTrO66FN4gcX2tm&usp=drive_copy",
+              "unitName": "Unit 1"
+            },
+            {
+              "pdfLink": "https://drive.google.com/open?id=1xtYdQ5n4p5CAGf90BGJLLC7zmi7x-GXB&usp=drive_copy",
+              "unitName": "Unit 2"
+            },
+            {
+              "pdfLink": "https://drive.google.com/open?id=1u06TC1Dfh134WWoTQ1JAGORcsg06H7kx&usp=drive_copy",
+              "unitName": "Unit 3"
+            },
+            {
+              "pdfLink": "https://drive.google.com/open?id=1AB4Jvn7AffOpey1uA4jbmySi3s7LCk6Q&usp=drive_copy",
+              "unitName": "Unit 4"
+            },
+            {
+              "pdfLink": "https://drive.google.com/open?id=18tzFAs3mSmaHrqhx5OdP2Dr_lLHxN2mA&usp=drive_copy",
+              "unitName": "Unit 5"
+            }
+          ],
+          "commonFor": "CAI,CSM,AID,CSD",
+          "subjectCode": "R201225"
+        },
+        {
+          "name": "Problem Solving Using Python Program",
+          "pyqs": [
+            {
+              "paperLink": "https://drive.google.com/open?id=1alAPB16QehdGo1z-11fbsMrrbTiF0Y0K&usp=drive_copy",
+              "paperType": "Reg",
+              "paperYear": "Aug 2022"
+            },
+            {
+              "paperLink": "https://drive.google.com/open?id=1DY_VgsCMo89zJU77OcCJTq8KAO1ugtIT&usp=drive_copy",
+              "paperType": "Reg",
+              "paperYear": "July 2023"
+            },
+            {
+              "paperLink": "https://drive.google.com/open?id=1kkk2vrtGspfrcqY2AjpuHlgMj_NeFVN5&usp=drive_copy",
+              "paperType": "Sup",
+              "paperYear": "Jan 2023"
+            }
+          ],
+          "units": [
+            {
+              "pdfLink": "https://drive.google.com/open?id=1GQ_jh1SZipx3ldNWKgTrO66FN4gcX2tm&usp=drive_copy",
+              "unitName": "Unit 1"
+            },
+            {
+              "pdfLink": "https://drive.google.com/open?id=1xtYdQ5n4p5CAGf90BGJLLC7zmi7x-GXB&usp=drive_copy",
+              "unitName": "Unit 2"
+            },
+            {
+              "pdfLink": "https://drive.google.com/open?id=1u06TC1Dfh134WWoTQ1JAGORcsg06H7kx&usp=drive_copy",
+              "unitName": "Unit 3"
+            },
+            {
+              "pdfLink": "https://drive.google.com/open?id=1AB4Jvn7AffOpey1uA4jbmySi3s7LCk6Q&usp=drive_copy",
+              "unitName": "Unit 4"
+            },
+            {
+              "pdfLink": "https://drive.google.com/open?id=18tzFAs3mSmaHrqhx5OdP2Dr_lLHxN2mA&usp=drive_copy",
+              "unitName": "Unit 5"
+            }
+          ],
+          "commonFor": "CSC",
+          "subjectCode": "R201219"
+        }
+      ]
+    }
+  ],
+  "regulation": "R20",
+  "university": "JNTUK"
+}

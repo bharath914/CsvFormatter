@@ -3,6 +3,13 @@
   <component name="CsvFileAttributes">
     <option name="attributeMap">
       <map>
+        <entry key="\src\main\kotlin\passPercentage\2_1PassPercentage.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\src\main\resources\assests\21_25\Students_rows.csv">
           <value>
             <Attribute>
@@ -60,6 +67,13 @@
           </value>
         </entry>
         <entry key="\src\main\resources\assests\passPercentage\Kiek2ndYr2-1.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\src\main\resources\assests\result\allyrresults.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
@@ -137,6 +151,13 @@
           </value>
         </entry>
         <entry key="\src\main\resources\output\name.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\src\main\resources\output\newresults.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
